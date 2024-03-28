@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|c:\\users\\usuario\\documents\\migracion_proyecto\\migracion\\01-codigofuente\\wsdistribucion\\class\\bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|solutionrelative:class\\bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|c:\\users\\usuario\\documents\\migracion_proyecto\\migracion\\01-codigofuente\\wsdistribucion\\class\\clsrespuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|solutionrelative:class\\clsrespuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|c:\\users\\usuario\\documents\\migracion_proyecto\\migracion\\01-codigofuente\\wsdistribucion\\class\\cslfunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|solutionrelative:class\\cslfunciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|c:\\users\\usuario\\documents\\migracion_proyecto\\migracion\\01-codigofuente\\wsdistribucion\\class\\web_ltl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|solutionrelative:class\\web_ltl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|c:\\users\\usuario\\documents\\migracion_proyecto\\migracion\\01-codigofuente\\wsdistribucion\\controllers\\documentaltlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|solutionrelative:controllers\\documentaltlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|c:\\users\\usuario\\documents\\migracion_proyecto\\migracion\\01-codigofuente\\wsdistribucion\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|c:\\users\\usuario\\documents\\migracion_proyecto\\migracion\\01-codigofuente\\wsdistribucion\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|c:\\users\\usuario\\documents\\migracion_proyecto\\migracion\\01-codigofuente\\wsdistribucion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|c:\\users\\usuario\\documents\\migracion_proyecto\\migracion\\01-codigofuente\\wsdistribucion\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010CA299-E7A0-4ED7-923A-915AC53D4CC0}|wsDistribucion.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClsRespuesta.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Class\\ClsRespuesta.cs",
+              "RelativeDocumentMoniker": "Class\\ClsRespuesta.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Class\\ClsRespuesta.cs",
+              "RelativeToolTip": "Class\\ClsRespuesta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:54:20.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CslFunciones.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Class\\CslFunciones.cs",
+              "RelativeDocumentMoniker": "Class\\CslFunciones.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Class\\CslFunciones.cs",
+              "RelativeToolTip": "Class\\CslFunciones.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:54:08.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentaLTLController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Controllers\\DocumentaLTLController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentaLTLController.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Controllers\\DocumentaLTLController.cs",
+              "RelativeToolTip": "Controllers\\DocumentaLTLController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:53:32.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:53:32.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:53:26.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T18:53:23.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BD.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Class\\BD.cs",
+              "RelativeDocumentMoniker": "Class\\BD.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Class\\BD.cs",
+              "RelativeToolTip": "Class\\BD.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAIwEgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T19:12:28.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WEB_LTL.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Class\\WEB_LTL.cs",
+              "RelativeDocumentMoniker": "Class\\WEB_LTL.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\Class\\WEB_LTL.cs",
+              "RelativeToolTip": "Class\\WEB_LTL.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T19:07:42.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:35:28.835Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ebii+/y1te5ze2nApZPB7kC0WLS10N6pOuyLgEOxs0j1Bn79ToAUuCe4RKUAcUwMx7t9J9xCBxb+TkYyvSO03g==",
+  "dgSpecHash": "+Ca/HZ1UkrYMl3K3mqMOlfXTT+8cyUS+r+tuDg4FJ53p3u/RUpjyL4cNXC5lRjWJgaz6x8JeYQO7E/kDquyzjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\source\\repos\\wsDistribucion\\wsDistribucion.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\Documents\\Migracion_Proyecto\\migracion\\01-CodigoFuente\\wsDistribucion\\wsDistribucion.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\usuario\\.nuget\\packages\\oracle.manageddataaccess\\21.10.0\\oracle.manageddataaccess.21.10.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\oracle.manageddataaccess\\21.13.0\\oracle.manageddataaccess.21.13.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\system.formats.asn1\\7.0.0\\system.formats.asn1.7.0.0.nupkg.sha512",
+    "C:\\Users\\usuario\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\system.text.json\\6.0.1\\system.text.json.6.0.1.nupkg.sha512"
@@ -14,7 +17,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Oracle.ManagedDataAccess 21.10.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "El paquete \"Oracle.ManagedDataAccess 21.13.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \".NETCoreApp,Version=v3.1\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "Oracle.ManagedDataAccess",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

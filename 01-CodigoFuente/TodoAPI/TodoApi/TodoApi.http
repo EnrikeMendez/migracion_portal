@@ -1,0 +1,33 @@
+﻿@TodoApi_HostAddress = https://localhost:7076
+
+POST {{TodoApi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"José Ruiz",
+  "isComplete":true
+}
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems
+
+###
+
+GET {{TodoApi_HostAddress}}/todoitems/3
+
+###
+
+PUT {{TodoApi_HostAddress}}/todoitems/3
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Dinora Arteagah",
+  "isComplete": false
+}
+###
+
+DELETE {{TodoApi_HostAddress}}/todoitems/1
+
+###
