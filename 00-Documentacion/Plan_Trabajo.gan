@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-19" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-09-06" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="es_ES">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="200" order="0"/>
@@ -34,7 +34,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Menu Principal" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="0" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Inicio" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="0" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
             <task id="1" name="LogOut" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="0" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
                 <task id="2" name="LogIn" color="#8cb6ce" meeting="false" start="2024-04-23" duration="3" complete="0" thirdDate="2024-04-23" thirdDate-constraint="1" expand="true">
                     <depend id="3" type="2" difference="0" hardness="Strong"/>
@@ -53,11 +53,11 @@
                 </task>
             </task>
         </task>
-        <task id="7" name="Comercio Exterior" meeting="false" start="2024-05-09" duration="6" complete="0" expand="true">
+        <task id="7" name="Comercio Exterior" meeting="false" start="2024-05-09" duration="35" complete="0" expand="true">
             <task id="8" name="Simple Queries (principal)" color="#8cb6ce" meeting="false" start="2024-05-09" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
                 <depend id="11" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="9" name="Multiple Queries" meeting="false" start="2024-05-10" duration="5" complete="0" expand="true">
+            <task id="9" name="Multiple Queries" meeting="false" start="2024-05-10" duration="10" complete="0" expand="true">
                 <task id="10" name="Import" meeting="false" start="2024-05-10" duration="5" complete="0" expand="true">
                     <task id="11" name="Land" color="#8cb6ce" meeting="false" start="2024-05-10" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
                         <depend id="12" type="2" difference="0" hardness="Strong"/>
@@ -71,8 +71,372 @@
                     <task id="14" name="Intermodal Land" color="#8cb6ce" meeting="false" start="2024-05-15" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
                         <depend id="15" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="15" name="Intermodal Sea" color="#8cb6ce" meeting="false" start="2024-05-16" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true"/>
+                    <task id="15" name="Intermodal Sea" color="#8cb6ce" meeting="false" start="2024-05-16" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="false">
+                        <depend id="17" type="2" difference="0" hardness="Strong"/>
+                    </task>
                 </task>
+                <task id="16" name="Export" meeting="false" start="2024-05-17" duration="3" complete="0" expand="true">
+                    <task id="17" name="Land" color="#8cb6ce" meeting="false" start="2024-05-17" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                        <depend id="18" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="18" name="Sea" color="#8cb6ce" meeting="false" start="2024-05-20" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                        <depend id="19" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="19" name="Air" color="#8cb6ce" meeting="false" start="2024-05-21" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                        <depend id="20" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="20" name="All Trafic" color="#8cb6ce" meeting="false" start="2024-05-22" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="21" name="Entry Summary" color="#8cb6ce" meeting="false" start="2024-05-23" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                    <depend id="23" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="22" name="Financial" meeting="false" start="2024-05-24" duration="6" complete="0" expand="true">
+                <task id="23" name="Account Statement" color="#8cb6ce" meeting="false" start="2024-05-24" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="24" name="Invoices" meeting="false" start="2024-05-27" duration="2" complete="0" expand="true">
+                    <task id="25" name="American Invoices" color="#8cb6ce" meeting="false" start="2024-05-27" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                        <depend id="26" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="26" name="Mexican invoices" color="#8cb6ce" meeting="false" start="2024-05-28" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                        <depend id="28" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="27" name="Payments" meeting="false" start="2024-05-29" duration="3" complete="0" expand="true">
+                    <task id="28" name="Advanced Payments" color="#8cb6ce" meeting="false" start="2024-05-29" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                        <depend id="29" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="29" name="Invoices Payments" color="#8cb6ce" meeting="false" start="2024-05-30" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                        <depend id="30" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="30" name="Payments (General)" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                        <depend id="32" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+            </task>
+            <task id="31" name="Downloads" meeting="false" start="2024-06-03" duration="2" complete="0" expand="true">
+                <task id="32" name="Operation" color="#8cb6ce" meeting="false" start="2024-06-03" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                    <depend id="33" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="33" name="Financial" color="#8cb6ce" meeting="false" start="2024-06-04" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                    <depend id="37" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="34" name="Remesas" meeting="false" start="2024-06-05" duration="8" complete="0" expand="true">
+                <task id="35" name="Consultar" meeting="false" start="2024-06-05" duration="4" complete="0" expand="true">
+                    <task id="36" name="Remesa Normal" meeting="false" start="2024-06-05" duration="2" complete="0" expand="true">
+                        <task id="37" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-05" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                            <depend id="38" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="38" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-06" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
+                            <depend id="40" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                    <task id="39" name="Remesa Virtual" meeting="false" start="2024-06-07" duration="2" complete="0" expand="true">
+                        <task id="40" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-07" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
+                            <depend id="41" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="41" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-10" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
+                            <depend id="44" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                </task>
+                <task id="42" name="Cargar" meeting="false" start="2024-06-11" duration="4" complete="0" expand="true">
+                    <task id="43" name="Remesa Normal" meeting="false" start="2024-06-11" duration="2" complete="0" expand="true">
+                        <task id="44" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-11" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
+                            <depend id="45" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="45" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-12" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
+                            <depend id="47" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                    <task id="46" name="Remesa Virtual" meeting="false" start="2024-06-13" duration="2" complete="0" expand="true">
+                        <task id="47" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-13" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
+                            <depend id="48" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="48" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-14" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
+                            <depend id="52" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                </task>
+            </task>
+            <task id="49" name="Remesas Cove" meeting="false" start="2024-06-17" duration="8" complete="0" expand="true">
+                <task id="50" name="Cargar" meeting="false" start="2024-06-17" duration="4" complete="0" expand="true">
+                    <task id="51" name="Remesa Normal" meeting="false" start="2024-06-17" duration="2" complete="0" expand="true">
+                        <task id="52" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-17" duration="1" complete="0" thirdDate="2024-05-27" thirdDate-constraint="0" expand="true">
+                            <depend id="53" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="53" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-18" duration="1" complete="0" thirdDate="2024-05-27" thirdDate-constraint="0" expand="true">
+                            <depend id="55" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                    <task id="54" name="Remesa Virtual" meeting="false" start="2024-06-19" duration="2" complete="0" expand="true">
+                        <task id="55" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-19" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+                            <depend id="56" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="56" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-20" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+                            <depend id="59" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                </task>
+                <task id="57" name="Consultar" meeting="false" start="2024-06-21" duration="4" complete="0" expand="true">
+                    <task id="58" name="Remesa Normal" meeting="false" start="2024-06-21" duration="2" complete="0" expand="true">
+                        <task id="59" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-21" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+                            <depend id="60" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="60" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-24" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+                            <depend id="62" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                    <task id="61" name="Remesa Virtual" meeting="false" start="2024-06-25" duration="2" complete="0" expand="true">
+                        <task id="62" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-25" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+                            <depend id="63" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="63" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-26" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
+                            <depend id="65" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </task>
+        <task id="64" name="Finanzas" meeting="false" start="2024-06-27" duration="13" complete="0" expand="true">
+            <task id="65" name="Account Statement" color="#8cb6ce" meeting="false" start="2024-06-27" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                <depend id="68" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="66" name="Invoices" meeting="false" start="2024-06-28" duration="4" complete="0" expand="true">
+                <task id="67" name="Amercian Voices" meeting="false" start="2024-06-28" duration="2" complete="0" expand="true">
+                    <task id="68" name="By Number" color="#8cb6ce" meeting="false" start="2024-06-28" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="69" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="69" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-01" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="71" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="70" name="Mexican Voices" meeting="false" start="2024-07-02" duration="2" complete="0" expand="true">
+                    <task id="71" name="By Number" color="#8cb6ce" meeting="false" start="2024-07-02" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="72" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="72" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-03" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="75" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+            </task>
+            <task id="73" name="Payments" meeting="false" start="2024-07-04" duration="8" complete="0" expand="true">
+                <task id="74" name="Advanced payments" meeting="false" start="2024-07-04" duration="2" complete="0" expand="true">
+                    <task id="75" name="By Payment Ref" color="#8cb6ce" meeting="false" start="2024-07-04" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="76" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="76" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-05" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="78" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="77" name="InVoices Payments" meeting="false" start="2024-07-08" duration="3" complete="0" expand="true">
+                    <task id="78" name="By Payment Ref" color="#8cb6ce" meeting="false" start="2024-07-08" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="79" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="79" name="By Logis Payment Ref." color="#8cb6ce" meeting="false" start="2024-07-09" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="80" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="80" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-10" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="82" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="81" name="Payments (General)" meeting="false" start="2024-07-11" duration="3" complete="0" expand="true">
+                    <task id="82" name="By Payment Ref" color="#8cb6ce" meeting="false" start="2024-07-11" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="83" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="83" name="By Logis Payment Ref." color="#8cb6ce" meeting="false" start="2024-07-12" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="84" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="84" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-15" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                        <depend id="87" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+            </task>
+        </task>
+        <task id="85" name="Almacenaje / Distribución" meeting="false" start="2024-07-16" duration="45" complete="0" expand="true">
+            <task id="86" name="Entradas" meeting="false" start="2024-07-16" duration="5" complete="0" expand="true">
+                <task id="87" name="Por num." color="#8cb6ce" meeting="false" start="2024-07-16" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="88" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="88" name="Por fechas" color="#8cb6ce" meeting="false" start="2024-07-17" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="89" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="89" name="Por doc. de entrada" color="#8cb6ce" meeting="false" start="2024-07-18" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="90" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="90" name="Por referencia" color="#8cb6ce" meeting="false" start="2024-07-19" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="91" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="91" name="Criterios multiples" color="#8cb6ce" meeting="false" start="2024-07-22" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="93" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="92" name="Pedidos" meeting="false" start="2024-07-23" duration="7" complete="0" expand="true">
+                <task id="93" name="Por num." color="#8cb6ce" meeting="false" start="2024-07-23" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="94" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="94" name="Por fechas" color="#8cb6ce" meeting="false" start="2024-07-24" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="95" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="95" name="Por referencia" color="#8cb6ce" meeting="false" start="2024-07-25" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="96" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="96" name="Criterios multiples" color="#8cb6ce" meeting="false" start="2024-07-26" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="97" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="97" name="Carga Archivos" color="#8cb6ce" meeting="false" start="2024-07-29" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="98" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="98" name="Carga aviso entrada" color="#8cb6ce" meeting="false" start="2024-07-30" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="99" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="99" name="Cotizador CD" color="#8cb6ce" meeting="false" start="2024-07-31" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="101" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="100" name="Salidas" meeting="false" start="2024-08-01" duration="3" complete="0" expand="true">
+                <task id="101" name="Por num." color="#8cb6ce" meeting="false" start="2024-08-01" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="102" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="102" name="Por fechas" color="#8cb6ce" meeting="false" start="2024-08-02" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="103" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="103" name="Por referencia" color="#8cb6ce" meeting="false" start="2024-08-05" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="105" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="104" name="Inventarios" meeting="false" start="2024-08-06" duration="5" complete="0" expand="true">
+                <task id="105" name="Actual" color="#8cb6ce" meeting="false" start="2024-08-06" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
+                    <depend id="107" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="106" name="Anterior" meeting="false" start="2024-08-07" duration="2" complete="0" expand="true">
+                    <task id="107" name="Por Referencia" color="#8cb6ce" meeting="false" start="2024-08-07" duration="1" complete="0" thirdDate="2024-07-19" thirdDate-constraint="0" expand="true">
+                        <depend id="108" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="108" name="Completo (Excel)" color="#8cb6ce" meeting="false" start="2024-08-08" duration="1" complete="0" thirdDate="2024-07-19" thirdDate-constraint="0" expand="true">
+                        <depend id="109" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="109" name="Componentes" color="#8cb6ce" meeting="false" start="2024-08-09" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                    <depend id="110" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="110" name="Control Inventario" color="#8cb6ce" meeting="false" start="2024-08-12" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                    <depend id="111" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="111" name="Incidencias" color="#8cb6ce" meeting="false" start="2024-08-13" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="112" name="Evidencias" meeting="false" start="2024-08-14" duration="3" complete="0" expand="true">
+                <task id="113" name="Por num." color="#8cb6ce" meeting="false" start="2024-08-14" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                    <depend id="114" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="114" name="Por fechas" color="#8cb6ce" meeting="false" start="2024-08-15" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                    <depend id="115" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="115" name="Criterios multiples" color="#8cb6ce" meeting="false" start="2024-08-16" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                    <depend id="117" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="116" name="Control IMEI" meeting="false" start="2024-08-19" duration="13" complete="0" expand="true">
+                <task id="117" name="Por IMEI" color="#8cb6ce" meeting="false" start="2024-08-19" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                    <depend id="118" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="118" name="Por Folio Operador" color="#8cb6ce" meeting="false" start="2024-08-20" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                    <depend id="120" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="119" name="Criterios Multiples" meeting="false" start="2024-08-21" duration="4" complete="0" expand="true">
+                    <task id="120" name="Entrada" color="#8cb6ce" meeting="false" start="2024-08-21" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="121" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="121" name="Pedidos" color="#8cb6ce" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="122" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="122" name="Transferencias" color="#8cb6ce" meeting="false" start="2024-08-23" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="123" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="123" name="Salidas" color="#8cb6ce" meeting="false" start="2024-08-26" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="125" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="124" name="Downloads IMEI" meeting="false" start="2024-08-27" duration="7" complete="0" expand="true">
+                    <task id="125" name="Reportes" color="#8cb6ce" meeting="false" start="2024-08-27" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="126" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="126" name="Inventarios" color="#8cb6ce" meeting="false" start="2024-08-28" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="127" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="127" name="Inventarios SL" color="#8cb6ce" meeting="false" start="2024-08-29" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="128" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="128" name="Indicadores de calidad" color="#8cb6ce" meeting="false" start="2024-08-30" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="129" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="129" name="Control IMEIs(SEMX)" color="#8cb6ce" meeting="false" start="2024-09-02" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="130" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="130" name="Entradas / Salidas" color="#8cb6ce" meeting="false" start="2024-09-03" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
+                        <depend id="131" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="131" name="Reporte IMEIs (por archivo)" color="#8cb6ce" meeting="false" start="2024-09-04" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                        <depend id="133" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+            </task>
+            <task id="132" name="Reportes Internos" meeting="false" start="2024-09-05" duration="6" complete="0" expand="true">
+                <task id="133" name="Reportes de control" color="#8cb6ce" meeting="false" start="2024-09-05" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="134" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="134" name="Estadisticas IN/OUT" color="#8cb6ce" meeting="false" start="2024-09-06" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="135" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="135" name="Picking (-3 a 2 dias de tiempo global)" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="136" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="136" name="Inventarios por almacen" color="#8cb6ce" meeting="false" start="2024-09-10" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="137" type="2" difference="0" hardness="Strong"/>
+                    <task id="142" name="Distribución / LTL" meeting="false" start="2024-09-10" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="137" name="Captura Obs. IMEIs" color="#8cb6ce" meeting="false" start="2024-09-11" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="138" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="138" name="Localizacion IMEIs" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="140" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="139" name="Recolección" meeting="false" start="2024-09-13" duration="2" complete="0" expand="true">
+                <task id="140" name="Por Num" color="#8cb6ce" meeting="false" start="2024-09-13" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="141" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="141" name="Por Fechas" color="#8cb6ce" meeting="false" start="2024-09-16" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="145" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="143" name="Distribución / LTL" color="#8cb6ce" meeting="false" start="2024-09-17" duration="6" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+            <task id="144" name="Catalogos" color="#8cb6ce" meeting="false" start="2024-09-17" duration="2" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                <task id="145" name="Remitentes" color="#8cb6ce" meeting="false" start="2024-09-17" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="146" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="146" name="Destinatarios" color="#8cb6ce" meeting="false" start="2024-09-18" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="148" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="147" name="LTL" meeting="false" start="2024-09-19" duration="4" complete="0" expand="true">
+                <task id="148" name="Venta Mostrador" color="#8cb6ce" meeting="false" start="2024-09-19" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="149" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="149" name="Saldo Monedero Electronico" color="#8cb6ce" meeting="false" start="2024-09-20" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
+                    <depend id="150" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="150" name="Consulta" color="#8cb6ce" meeting="false" start="2024-09-23" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
+                    <depend id="151" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="151" name="Criterios Multiples" color="#8cb6ce" meeting="false" start="2024-09-24" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
     </tasks>
