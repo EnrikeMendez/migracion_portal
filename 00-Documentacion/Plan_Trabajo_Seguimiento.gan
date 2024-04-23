@@ -37,8 +37,8 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="93a427aa7d6b4a56892ee3bf9872c99c" name="Inicio" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="4" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
-            <task id="1" uid="463bb11153f24d17b0b9c5f4d5380fd9" name="LogOut" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="4" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+        <task id="0" uid="93a427aa7d6b4a56892ee3bf9872c99c" name="Inicio" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="5" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+            <task id="1" uid="463bb11153f24d17b0b9c5f4d5380fd9" name="LogOut" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="5" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
                 <task id="2" uid="5ed39504acff4d2aaa357681da058fe5" name="LogIn" color="#8cb6ce" meeting="false" start="2024-04-23" duration="3" complete="17" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
                     <depend id="3" type="2" difference="0" hardness="Strong"/>
                     <task id="205" uid="2fa49ddbfca34b4898678f669fc897f8" name="Frontend" meeting="false" start="2024-04-23" duration="3" complete="30" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
@@ -51,17 +51,17 @@
                     </task>
                     <task id="206" uid="866eafb20e184c48ba05a5bde1dfa685" name="Backend" meeting="false" start="2024-04-24" duration="2" complete="5" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
                         <notes><![CDATA[Analisis de back para el login  ]]></notes>
-                        <task id="211" uid="a64046d50b724a1cb01545cdcbe6547e" name="Analisis" meeting="false" start="2024-04-24" duration="1" complete="20" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="211" uid="a64046d50b724a1cb01545cdcbe6547e" name="Análisis" meeting="false" start="2024-04-24" duration="1" complete="20" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                         <task id="212" uid="11faa6b504754794b39490b04d2ae7d2" name="Desarrollo" meeting="false" start="2024-04-24" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                         <task id="213" uid="3d30b117eac84725879f4723d206c96b" name="Pruebas" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                         <task id="214" uid="3093d9967191433ebc2b99a75b220de5" name="Ajustes" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
-                <task id="3" uid="8a971d0cb93b4d03a6ea8cee03ebf866" name="Login_Cliente" color="#8cb6ce" meeting="false" start="2024-04-26" duration="2" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                <task id="3" uid="8a971d0cb93b4d03a6ea8cee03ebf866" name="Login_Cliente" color="#8cb6ce" meeting="false" start="2024-04-26" duration="2" complete="8" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
                     <depend id="4" type="2" difference="0" hardness="Strong"/>
-                    <task id="215" uid="1cd76a6003b14593be7a1d48ecac2d4e" name="Frontend" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
-                        <task id="216" uid="796737d90a1f4bfd9411c0d3f306d360" name="Analisis" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
-                        <task id="217" uid="f2de495e4273455a999f679770738ecb" name="Diseño" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                    <task id="215" uid="1cd76a6003b14593be7a1d48ecac2d4e" name="Frontend" meeting="false" start="2024-04-26" duration="1" complete="17" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <task id="216" uid="796737d90a1f4bfd9411c0d3f306d360" name="Analisis" meeting="false" start="2024-04-26" duration="1" complete="30" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                        <task id="217" uid="f2de495e4273455a999f679770738ecb" name="Diseño" meeting="false" start="2024-04-26" duration="1" complete="40" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
                         <task id="218" uid="2540e435a56440ddb6517d1446490135" name="Pruebas" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
                         <task id="219" uid="deaf90d106d843068e555909946956f2" name="Ajustes" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
                     </task>
@@ -84,19 +84,35 @@
                 <task id="239" uid="b6cb0f4b7a89451ca95684409caa7bbd" name="Backend" meeting="false" start="2024-05-01" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
                     <task id="238" uid="6839e871c23b4bb28eb917a9dfb99e4f" name="Analisis" meeting="false" start="2024-05-01" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="5" uid="1c63330c06cf4d96a46fea01a87945c5" name="Home" color="#8cb6ce" meeting="false" start="2024-05-02" duration="3" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="false">
+                <task id="5" uid="1c63330c06cf4d96a46fea01a87945c5" name="Home" color="#8cb6ce" meeting="false" start="2024-05-02" duration="3" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
                     <depend id="6" type="2" difference="0" hardness="Strong"/>
-                    <task id="229" uid="7852a71254ce492985ae056cdaaf669b" name="Analisis" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                    <task id="230" uid="ad6b13cb740a46128a8f67771ea8e1f9" name="Diseño" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                    <task id="231" uid="b1cfd66f90da4c6692613370d86564c7" name="Pruebas" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                    <task id="232" uid="94d25d8106564d8eb7fc974ad3243d01" name="Ajustes" meeting="false" start="2024-05-06" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                    <task id="229" uid="7852a71254ce492985ae056cdaaf669b" name="Frontend" meeting="false" start="2024-05-02" duration="3" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <task id="241" uid="758727ddcc1949d68bae2b77bac3df00" name="Análisis" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
+                        <task id="230" uid="ad6b13cb740a46128a8f67771ea8e1f9" name="Diseño" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="231" uid="b1cfd66f90da4c6692613370d86564c7" name="Pruebas" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="232" uid="94d25d8106564d8eb7fc974ad3243d01" name="Ajustes" meeting="false" start="2024-05-06" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="243" uid="b464430a97214c09bc4b51c513d97710" name="Backend" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                        <task id="244" uid="07a80e8f134042d2ad7a551ff2a72909" name="Análisis" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
+                        <task id="245" uid="0ec80f8c99b2425794ae2f93485b389b" name="Desarrollo" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
+                        <task id="246" uid="6f94b7ce75104e629a817f97e59e2beb" name="Pruebas" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
+                        <task id="247" uid="c7f36061d4bf407ba52fcc7cdcad8bf7" name="Ajustes" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
+                    </task>
                 </task>
                 <task id="6" uid="43cfc0ebdd4d42c298d347116cbfacd3" name="Menu" color="#8cb6ce" meeting="false" start="2024-05-07" duration="2" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
                     <depend id="8" type="2" difference="0" hardness="Strong"/>
-                    <task id="233" uid="9d78fa97ca5541a7bb4247388b6a090d" name="Analisis" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                    <task id="234" uid="60c5e74a92f046599edc4bc5d4a5d29f" name="Diseño" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
-                    <task id="235" uid="eba35ca0e19d4c988884e839a01204ea" name="Pruebas" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
-                    <task id="236" uid="1a22b031536a4727a7da66226ef90164" name="Ajustes" meeting="false" start="2024-05-08" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                    <task id="233" uid="9d78fa97ca5541a7bb4247388b6a090d" name="Frontend" meeting="false" start="2024-05-07" duration="2" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <task id="248" uid="ed023d7887b747fd9c08e90e4a44bc4a" name="Análisis" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                        <task id="234" uid="60c5e74a92f046599edc4bc5d4a5d29f" name="Diseño" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                        <task id="235" uid="eba35ca0e19d4c988884e839a01204ea" name="Pruebas" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                        <task id="236" uid="1a22b031536a4727a7da66226ef90164" name="Ajustes" meeting="false" start="2024-05-08" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="249" uid="b32ab1eb4df24996bb18480e24430f56" name="Backend" meeting="false" start="2024-05-07" duration="1" complete="0" expand="true">
+                        <task id="250" uid="aac44404d7044023b06d7648830b3105" name="Análisis" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                        <task id="251" uid="60123198340d48a5b4998e816530ae63" name="Desarrollo" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                        <task id="252" uid="457436911f4b406aae60cae6d90bd1b9" name="pruebas" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                        <task id="253" uid="ef23b5b1e3da43dea30eccb1787085f3" name="Ajustes" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                    </task>
                 </task>
             </task>
         </task>
