@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-13" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-18" view-index="0" gantt-divider-location="493" resource-divider-location="300" version="3.2.3247" locale="es_ES">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="200" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <field id="tpd3" name="Nombre" width="273" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="102" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="102" order="2"/>
         <option id="filter.completedTasks" value="false"/>
     </view>
     <view id="resource-table">
@@ -34,6 +34,14 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
+        <task id="205" name="Requisitos previos" color="#8cb6ce" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-04-18" thirdDate-constraint="0" expand="true">
+            <task id="206" name="Listado de módulos totales" color="#8cb6ce" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-04-18" thirdDate-constraint="0" expand="true"/>
+            <task id="207" name="Analisis general del portal" meeting="false" start="2024-04-18" duration="1" complete="0" expand="true"/>
+            <task id="208" name="Solicitud del servidor" color="#8cb6ce" meeting="false" start="2024-04-18" duration="1" complete="0" thirdDate="2024-04-18" thirdDate-constraint="0" expand="true">
+                <task id="209" name="Pruebas en el servidor con la nueva tecnología" meeting="false" start="2024-04-18" duration="1" complete="0" expand="true"/>
+                <task id="210" name="Definir la forma en que se solicitarán los despliegues al servidor" meeting="false" start="2024-04-18" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
         <task id="0" name="Inicio" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="0" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
             <task id="1" name="LogOut" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="0" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
                 <task id="2" name="LogIn" color="#8cb6ce" meeting="false" start="2024-04-23" duration="3" complete="0" thirdDate="2024-04-23" thirdDate-constraint="1" expand="true">
