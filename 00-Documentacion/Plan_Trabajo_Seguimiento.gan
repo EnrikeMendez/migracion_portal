@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-13" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3300" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-11" view-index="0" gantt-divider-location="670" resource-divider-location="300" version="3.3.3300" locale="es_ES">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="200" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <field id="tpd3" name="Nombre" width="447" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="101" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="106" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
@@ -38,22 +38,130 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="93a427aa7d6b4a56892ee3bf9872c99c" name="Inicio" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="28" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
-            <task id="1" uid="463bb11153f24d17b0b9c5f4d5380fd9" name="LogOut" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="28" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
-                <task id="2" uid="5ed39504acff4d2aaa357681da058fe5" name="LogIn" color="#8cb6ce" meeting="false" start="2024-04-23" duration="3" complete="53" thirdDate="2024-04-23" thirdDate-constraint="0" expand="false">
+        <task id="264" uid="c5b2a8b1a76d45088953d61332118ad6" name="Pre-requisitos portal" meeting="false" start="2024-04-15" duration="8" complete="87" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+            <task id="262" uid="0280386b8c6c49f6a029b1cd5050b7fa" name="Analisis general de los modulos" meeting="false" project="true" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                <task id="265" uid="294b32cc7c024087b9dce18495ede562" name="Requisitos tecnicos" meeting="false" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Revisar la documentación técnica
+Aplicaciones web
+  Logis Consultores en este caso con prioridad
+ Portal Externo (COEX / v2) 
+ Portal Interno (v2)
+  Portal de Reportes	
+  Portal venta
+
+base de datos
+Oracle11 por medio de Entity Framework 6 o si se requiere acceso por medio de ADONET ]]></notes>
+                    <task id="272" uid="0b33946d96ef450497bee8a7910cf68e" name="Revisar y entender las especificaciones tecnicas" meeting="false" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[Revisar la documentación técnica
+Aplicaciones web
+  Logis Consultores en este caso con prioridad
+ Portal Externo (COEX / v2) 
+ Portal Interno (v2)
+  Portal de Reportes	
+  Portal venta
+
+base de datos
+Oracle11 por medio de Entity Framework 6 o si se requiere acceso por medio de ADONET 
+ ]]></notes>
+                    </task>
+                </task>
+                <task id="266" uid="0a1f3256e063403eab39a2bd03384d3a" name="Especificaciones tecnicas" meeting="false" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <task id="274" uid="1062fec8fd4e414d94346da21be3cd6b" name="Especificaciones Tecnicas a utilizar" meeting="false" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[Visual studio 
+	2022 instaladoen la maquina,
+	Microsoft Visual Studio Community 2022 (64 bits) - Current
+	Versión 17.9.4
+
+Oracle SQL Developer:
+	Oracle IDE	19.2.1.247.2212
+	Plataforma Java(TM)	1.8.0_111
+	Soporte de Control de Versiones		                              19.2.1.247.2212 vi  
+
+Visual Code
+	Version: 1.88.1 (user setup)
+	Node.js: 18.18.2
+Bootstrap, Html, Css, java scrip y ajax
+]]></notes>
+                    </task>
+                </task>
+            </task>
+            <task id="267" uid="89b2cd3735ec4c68b2bf0312596cb23e" name="Planeacion de modulos" meeting="false" start="2024-04-18" duration="5" complete="87" thirdDate="2024-04-16" thirdDate-constraint="0" expand="true">
+                <task id="276" uid="ea25e01230a44e5abe306e3119e727a8" name="Obtener listado de modulos" meeting="false" start="2024-04-18" duration="2" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[* Se reviso el listado de Modulos complementando lo que falta 
+     - Modulos_Portal-v2
+     - Se complemto del diagrama  Site_Map-v2
+]]></notes>
+                </task>
+                <task id="277" uid="ffac8c7bb321484c8271d2e735286379" name="Definir actividades de cada modulo" meeting="false" start="2024-04-19" duration="4" complete="78" thirdDate="2024-04-17" thirdDate-constraint="0" expand="true">
+                    <task id="282" uid="fff4ee5054eb427bbf198a88e9f76865" name="Establecer tiempos de cada modulo  login" meeting="false" start="2024-04-19" duration="1" complete="50" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[Se creo el gantt y se actualizaron tiempos de de los modulos del login conforme se avance]]></notes>
+                    </task>
+                    <task id="291" uid="41ecfedf055c45d992363f6ef041747e" name="Actualizacion de Pre-requisitos" meeting="false" start="2024-04-24" duration="1" complete="95" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                    <task id="292" uid="2437271508c342d9b062b230d09d5388" name="Diagrama de arqutectura" meeting="false" start="2024-04-24" duration="1" complete="90" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+            <task id="268" uid="cc7a8e79f1b1406bb176b8b127a7bf0e" name="Herramientas de Gestion" meeting="false" start="2024-04-19" duration="4" complete="100" thirdDate="2024-04-18" thirdDate-constraint="0" expand="true">
+                <task id="278" uid="bf9da1afa6e0471eb3c9e6824dd10bb9" name="Jira" meeting="false" start="2024-04-24" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                <task id="279" uid="fc0e34f3a2cf419f850b7b681496812c" name="Gattproject" meeting="false" start="2024-04-19" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="269" uid="445418f5b50a4de9ab4d03f38b60548c" name="Entrega de documentacion" meeting="false" start="2024-04-15" duration="5" complete="50" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                <task id="280" uid="104faf8237eb46c89fead2e0a27047a2" name="Envio 1" meeting="false" start="2024-04-19" duration="1" complete="100" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Modulos_Portal-v2
+ConcentradoDeModulosWeb
+Site_Map-v2]]></notes>
+                </task>
+                <task id="284" uid="b003fa439560433aa007bb9790b1b8a7" name="Envio 2" meeting="false" start="2024-04-15" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Gantt plan de trabajo
+Jira actividads]]></notes>
+                </task>
+            </task>
+            <task id="290" uid="955e676836104a90b393cd8dcdd0ed5d" name="Analisis de estrucura de Login" meeting="false" start="2024-04-16" duration="2" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Analis de estructura de Login 
+login.asp
+login2.asp
+login_cliente.asp 
+html.asp		  
+functions3.asp	
+timer_lib.asp	
+excel-class.asp
+excel-class2.asp
+variable.asp
+]]></notes>
+            </task>
+        </task>
+        <task id="0" uid="93a427aa7d6b4a56892ee3bf9872c99c" name="Inicio" color="#000000" meeting="false" start="2024-04-22" duration="13" complete="27" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+            <task id="1" uid="463bb11153f24d17b0b9c5f4d5380fd9" name="LogOut" color="#000000" meeting="false" start="2024-04-22" duration="13" complete="27" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+                <task id="2" uid="5ed39504acff4d2aaa357681da058fe5" name="LogIn" color="#8cb6ce" meeting="false" start="2024-04-22" duration="4" complete="47" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
                     <depend id="3" type="2" difference="0" hardness="Strong"/>
-                    <task id="205" uid="2fa49ddbfca34b4898678f669fc897f8" name="Frontend" meeting="false" start="2024-04-23" duration="3" complete="81" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <task id="205" uid="2fa49ddbfca34b4898678f669fc897f8" name="Frontend" meeting="false" start="2024-04-22" duration="2" complete="75" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
                         <notes><![CDATA[- se trabajo la estructura de carpetas 
 - se esta trabajando estilos ]]></notes>
-                        <task id="207" uid="c6c3bddfc054492c85426d16768aa47e" name="Análisis" meeting="false" start="2024-04-23" duration="1" complete="95" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                        <task id="208" uid="47cca79932624dbaa4de9bae6cf22b4a" name="Diseño" meeting="false" start="2024-04-23" duration="1" complete="85" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                        <task id="209" uid="67e7b2809150426ab1090eb154e1b50e" name="Pruebas" meeting="false" start="2024-04-25" duration="1" complete="60" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                        <task id="210" uid="536abfb7d75a489c8e2bb631715d0a6f" name="Ajustes" meeting="false" start="2024-04-25" duration="1" complete="85" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="207" uid="c6c3bddfc054492c85426d16768aa47e" name="Análisis Frontend de login" meeting="false" start="2024-04-22" duration="1" complete="70" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                            <notes><![CDATA[debug codigo para conocer las reglas
+login.asp
+login2.asp
+login_cliente.asp 
+html.asp		  
+functions3.asp	
+timer_lib.asp	
+excel-class.asp
+excel-class2.asp
+sswd/variable.asp
+]]></notes>
+                        </task>
+                        <task id="208" uid="47cca79932624dbaa4de9bae6cf22b4a" name="Diseño" meeting="false" start="2024-04-22" duration="1" complete="85" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="209" uid="67e7b2809150426ab1090eb154e1b50e" name="Pruebas" meeting="false" start="2024-04-23" duration="1" complete="60" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="210" uid="536abfb7d75a489c8e2bb631715d0a6f" name="Ajustes" meeting="false" start="2024-04-23" duration="1" complete="85" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                     </task>
-                    <task id="206" uid="866eafb20e184c48ba05a5bde1dfa685" name="Backend" meeting="false" start="2024-04-24" duration="2" complete="25" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <task id="206" uid="866eafb20e184c48ba05a5bde1dfa685" name="Backend" meeting="false" start="2024-04-22" duration="4" complete="20" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
                         <notes><![CDATA[Analisis de back para el login  ]]></notes>
-                        <task id="211" uid="a64046d50b724a1cb01545cdcbe6547e" name="Análisis" meeting="false" start="2024-04-24" duration="1" complete="50" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                        <task id="212" uid="11faa6b504754794b39490b04d2ae7d2" name="Desarrollo" meeting="false" start="2024-04-24" duration="1" complete="50" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="211" uid="a64046d50b724a1cb01545cdcbe6547e" name="Análisis" meeting="false" start="2024-04-22" duration="1" complete="50" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                            <notes><![CDATA[checklogin.asp
+functions3.asp]]></notes>
+                        </task>
+                        <task id="212" uid="11faa6b504754794b39490b04d2ae7d2" name="Desarrollo" meeting="false" start="2024-04-23" duration="1" complete="30" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                            <notes><![CDATA[Analis y creación de Stored login]]></notes>
+                        </task>
                         <task id="213" uid="3d30b117eac84725879f4723d206c96b" name="Pruebas" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                         <task id="214" uid="3093d9967191433ebc2b99a75b220de5" name="Ajustes" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                     </task>
@@ -85,7 +193,7 @@
                         <task id="238" uid="6839e871c23b4bb28eb917a9dfb99e4f" name="Analisis" meeting="false" start="2024-05-01" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
-                <task id="5" uid="1c63330c06cf4d96a46fea01a87945c5" name="Home" color="#8cb6ce" meeting="false" start="2024-05-02" duration="3" complete="21" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                <task id="5" uid="1c63330c06cf4d96a46fea01a87945c5" name="Home" color="#8cb6ce" meeting="false" start="2024-05-02" duration="3" complete="21" thirdDate="2024-04-19" thirdDate-constraint="0" expand="false">
                     <depend id="6" type="2" difference="0" hardness="Strong"/>
                     <task id="229" uid="7852a71254ce492985ae056cdaaf669b" name="Frontend" meeting="false" start="2024-05-02" duration="3" complete="20" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
                         <task id="241" uid="758727ddcc1949d68bae2b77bac3df00" name="Análisis" meeting="false" start="2024-05-02" duration="1" complete="40" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
