@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-11" view-index="0" gantt-divider-location="670" resource-divider-location="300" version="3.3.3300" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-06" view-index="0" gantt-divider-location="642" resource-divider-location="300" version="3.3.3300" locale="es_ES">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="447" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="101" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="106" order="2"/>
+        <field id="tpd3" name="Nombre" width="427" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="97" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="102" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
@@ -129,9 +129,9 @@ variable.asp
 ]]></notes>
             </task>
         </task>
-        <task id="0" uid="93a427aa7d6b4a56892ee3bf9872c99c" name="Inicio" color="#000000" meeting="false" start="2024-04-22" duration="13" complete="27" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
-            <task id="1" uid="463bb11153f24d17b0b9c5f4d5380fd9" name="LogOut" color="#000000" meeting="false" start="2024-04-22" duration="13" complete="27" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
-                <task id="2" uid="5ed39504acff4d2aaa357681da058fe5" name="LogIn" color="#8cb6ce" meeting="false" start="2024-04-22" duration="4" complete="47" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+        <task id="0" uid="93a427aa7d6b4a56892ee3bf9872c99c" name="Inicio" color="#000000" meeting="false" start="2024-04-08" duration="23" complete="26" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+            <task id="1" uid="463bb11153f24d17b0b9c5f4d5380fd9" name="LogOut" color="#000000" meeting="false" start="2024-04-08" duration="23" complete="26" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+                <task id="2" uid="5ed39504acff4d2aaa357681da058fe5" name="LogIn" color="#8cb6ce" meeting="false" start="2024-04-08" duration="15" complete="37" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
                     <depend id="3" type="2" difference="0" hardness="Strong"/>
                     <task id="205" uid="2fa49ddbfca34b4898678f669fc897f8" name="Frontend" meeting="false" start="2024-04-22" duration="2" complete="75" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
                         <notes><![CDATA[- se trabajo la estructura de carpetas 
@@ -153,31 +153,43 @@ sswd/variable.asp
                         <task id="209" uid="67e7b2809150426ab1090eb154e1b50e" name="Pruebas" meeting="false" start="2024-04-23" duration="1" complete="60" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                         <task id="210" uid="536abfb7d75a489c8e2bb631715d0a6f" name="Ajustes" meeting="false" start="2024-04-23" duration="1" complete="85" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                     </task>
-                    <task id="206" uid="866eafb20e184c48ba05a5bde1dfa685" name="Backend" meeting="false" start="2024-04-22" duration="4" complete="20" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <task id="206" uid="866eafb20e184c48ba05a5bde1dfa685" name="Backend" meeting="false" start="2024-04-08" duration="15" complete="18" thirdDate="2024-04-25" thirdDate-constraint="0" expand="true">
                         <notes><![CDATA[Analisis de back para el login  ]]></notes>
                         <task id="211" uid="a64046d50b724a1cb01545cdcbe6547e" name="Análisis" meeting="false" start="2024-04-22" duration="1" complete="50" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
                             <notes><![CDATA[checklogin.asp
 functions3.asp]]></notes>
                         </task>
-                        <task id="212" uid="11faa6b504754794b39490b04d2ae7d2" name="Desarrollo" meeting="false" start="2024-04-23" duration="1" complete="30" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <task id="212" uid="11faa6b504754794b39490b04d2ae7d2" name="Desarrollo" meeting="false" start="2024-04-08" duration="15" complete="20" thirdDate="2024-04-24" thirdDate-constraint="0" expand="true">
                             <notes><![CDATA[Analis y creación de Stored login]]></notes>
+                            <task id="294" uid="91555d6b51fb41e1b94875f07f0892d0" name="stored de login" meeting="false" start="2024-04-08" duration="15" complete="20" thirdDate="2024-04-25" thirdDate-constraint="0" expand="true">
+                                <notes><![CDATA[- 25-04-2024
+se esta analizando y creando el stored con las reglas de negocio]]></notes>
+                                <task id="295" uid="da6866b8aece4126b845fa7c2838dd8d" name="pruebas del store" meeting="false" start="2024-04-26" duration="1" complete="50" thirdDate="2024-04-11" thirdDate-constraint="0" expand="true"/>
+                                <task id="296" uid="cca29ab522f448349b761c7b3a9e0840" name="ajustes" meeting="false" start="2024-04-26" duration="1" complete="50" thirdDate="2024-04-11" thirdDate-constraint="0" expand="true"/>
+                                <task id="297" uid="083f014ca3734609879e1b3cbf8555a4" name="integracion con el back y forntend del login" meeting="false" start="2024-04-08" duration="1" complete="0" thirdDate="2024-04-08" thirdDate-constraint="0" expand="true">
+                                    <notes><![CDATA[se estara trabajando]]></notes>
+                                    <task id="298" uid="e4ff300b41dc423db491f67aaccae07d" name="Conexion a la base de datos" meeting="false" start="2024-04-08" duration="1" complete="0" thirdDate="2024-04-08" thirdDate-constraint="0" expand="true"/>
+                                    <task id="299" uid="fa625adaa7f14a0b8bb3d97b2dc004b5" name="Llamado a la base de datos" meeting="false" start="2024-04-08" duration="1" complete="0" thirdDate="2024-04-08" thirdDate-constraint="0" expand="true"/>
+                                    <task id="300" uid="3b0a575888e14fc1a1e7795b4444f083" name="integración de backend y frontend Login" meeting="false" start="2024-04-08" duration="1" complete="0" thirdDate="2024-04-08" thirdDate-constraint="0" expand="true"/>
+                                </task>
+                            </task>
                         </task>
                         <task id="213" uid="3d30b117eac84725879f4723d206c96b" name="Pruebas" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                         <task id="214" uid="3093d9967191433ebc2b99a75b220de5" name="Ajustes" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
-                <task id="3" uid="8a971d0cb93b4d03a6ea8cee03ebf866" name="Login_Cliente" color="#8cb6ce" meeting="false" start="2024-04-26" duration="2" complete="40" thirdDate="2024-04-19" thirdDate-constraint="0" expand="false">
+                <task id="3" uid="8a971d0cb93b4d03a6ea8cee03ebf866" name="Login_Cliente" color="#8cb6ce" meeting="false" start="2024-04-29" duration="1" complete="40" thirdDate="2024-04-19" thirdDate-constraint="0" expand="false">
                     <depend id="4" type="2" difference="0" hardness="Strong"/>
-                    <task id="215" uid="1cd76a6003b14593be7a1d48ecac2d4e" name="Frontend" meeting="false" start="2024-04-26" duration="1" complete="81" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
-                        <task id="216" uid="796737d90a1f4bfd9411c0d3f306d360" name="Análisis" meeting="false" start="2024-04-26" duration="1" complete="95" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
-                        <task id="217" uid="f2de495e4273455a999f679770738ecb" name="Diseño" meeting="false" start="2024-04-26" duration="1" complete="85" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
-                        <task id="218" uid="2540e435a56440ddb6517d1446490135" name="Pruebas" meeting="false" start="2024-04-26" duration="1" complete="60" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
-                        <task id="219" uid="deaf90d106d843068e555909946956f2" name="Ajustes" meeting="false" start="2024-04-26" duration="1" complete="85" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                    <task id="215" uid="1cd76a6003b14593be7a1d48ecac2d4e" name="Frontend" meeting="false" start="2024-04-29" duration="1" complete="81" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <task id="216" uid="796737d90a1f4bfd9411c0d3f306d360" name="Análisis" meeting="false" start="2024-04-29" duration="1" complete="95" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                        <task id="217" uid="f2de495e4273455a999f679770738ecb" name="Diseño" meeting="false" start="2024-04-29" duration="1" complete="85" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                        <task id="218" uid="2540e435a56440ddb6517d1446490135" name="Pruebas" meeting="false" start="2024-04-29" duration="1" complete="60" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                        <task id="219" uid="deaf90d106d843068e555909946956f2" name="Ajustes" meeting="false" start="2024-04-29" duration="1" complete="85" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
                     </task>
-                    <task id="220" uid="6bd50dc2d09d4c168099a0b04f7c685d" name="Backend" meeting="false" start="2024-04-26" duration="2" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true">
-                        <task id="221" uid="53e82f745bdb4729bff85962a8e0bdef" name="Analisis" meeting="false" start="2024-04-26" duration="1" complete="0" expand="true"/>
-                        <task id="222" uid="a5ee847cef3c40b6adc9f26cf470cb08" name="Diseño" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
-                        <task id="223" uid="4031399c991f409ea448e3cf341d004e" name="Pruebas" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                    <task id="220" uid="6bd50dc2d09d4c168099a0b04f7c685d" name="Backend" meeting="false" start="2024-04-29" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true">
+                        <task id="221" uid="53e82f745bdb4729bff85962a8e0bdef" name="Analisis" meeting="false" start="2024-04-29" duration="1" complete="0" expand="true"/>
+                        <task id="222" uid="a5ee847cef3c40b6adc9f26cf470cb08" name="Diseño" meeting="false" start="2024-04-29" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                        <task id="223" uid="4031399c991f409ea448e3cf341d004e" name="Pruebas" meeting="false" start="2024-04-29" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
                         <task id="224" uid="fe54ec9ce628407d8d8435b20e40df55" name="Ajustes" meeting="false" start="2024-04-29" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
@@ -219,7 +231,9 @@ functions3.asp]]></notes>
                         <task id="250" uid="aac44404d7044023b06d7648830b3105" name="Análisis" meeting="false" start="2024-05-07" duration="1" complete="50" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true">
                             <task id="254" uid="5419232d3cdd43269d0546e0d6666702" name="analis y crear stord de Login" meeting="false" start="2024-05-07" duration="1" complete="50" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
                         </task>
-                        <task id="251" uid="60123198340d48a5b4998e816530ae63" name="Desarrollo" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                        <task id="251" uid="60123198340d48a5b4998e816530ae63" name="Desarrollo" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true">
+                            <task id="293" uid="2c5565ddaf9b425a9d6804a31454bfae" name="task_293" meeting="false" start="2024-05-07" duration="1" complete="0" expand="true"/>
+                        </task>
                         <task id="252" uid="457436911f4b406aae60cae6d90bd1b9" name="pruebas" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
                         <task id="253" uid="ef23b5b1e3da43dea30eccb1787085f3" name="Ajustes" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
                     </task>
