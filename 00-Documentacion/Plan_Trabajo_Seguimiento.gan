@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-15" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3300" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-04-06" view-index="0" gantt-divider-location="642" resource-divider-location="300" version="3.3.3300" locale="es_ES">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="200" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <field id="tpd3" name="Nombre" width="427" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="97" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="102" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ccffff #ff3300]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nombre" width="210" order="0"/>
@@ -37,42 +38,162 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="93a427aa7d6b4a56892ee3bf9872c99c" name="Inicio" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="5" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
-            <task id="1" uid="463bb11153f24d17b0b9c5f4d5380fd9" name="LogOut" color="#000000" meeting="false" start="2024-04-23" duration="12" complete="5" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
-                <task id="2" uid="5ed39504acff4d2aaa357681da058fe5" name="LogIn" color="#8cb6ce" meeting="false" start="2024-04-23" duration="3" complete="17" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+        <task id="264" uid="c5b2a8b1a76d45088953d61332118ad6" name="Pre-requisitos portal" meeting="false" start="2024-04-15" duration="8" complete="87" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+            <task id="262" uid="0280386b8c6c49f6a029b1cd5050b7fa" name="Analisis general de los modulos" meeting="false" project="true" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                <task id="265" uid="294b32cc7c024087b9dce18495ede562" name="Requisitos tecnicos" meeting="false" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Revisar la documentación técnica
+Aplicaciones web
+  Logis Consultores en este caso con prioridad
+ Portal Externo (COEX / v2) 
+ Portal Interno (v2)
+  Portal de Reportes	
+  Portal venta
+
+base de datos
+Oracle11 por medio de Entity Framework 6 o si se requiere acceso por medio de ADONET ]]></notes>
+                    <task id="272" uid="0b33946d96ef450497bee8a7910cf68e" name="Revisar y entender las especificaciones tecnicas" meeting="false" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[Revisar la documentación técnica
+Aplicaciones web
+  Logis Consultores en este caso con prioridad
+ Portal Externo (COEX / v2) 
+ Portal Interno (v2)
+  Portal de Reportes	
+  Portal venta
+
+base de datos
+Oracle11 por medio de Entity Framework 6 o si se requiere acceso por medio de ADONET 
+ ]]></notes>
+                    </task>
+                </task>
+                <task id="266" uid="0a1f3256e063403eab39a2bd03384d3a" name="Especificaciones tecnicas" meeting="false" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <task id="274" uid="1062fec8fd4e414d94346da21be3cd6b" name="Especificaciones Tecnicas a utilizar" meeting="false" start="2024-04-15" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[Visual studio 
+	2022 instaladoen la maquina,
+	Microsoft Visual Studio Community 2022 (64 bits) - Current
+	Versión 17.9.4
+
+Oracle SQL Developer:
+	Oracle IDE	19.2.1.247.2212
+	Plataforma Java(TM)	1.8.0_111
+	Soporte de Control de Versiones		                              19.2.1.247.2212 vi  
+
+Visual Code
+	Version: 1.88.1 (user setup)
+	Node.js: 18.18.2
+Bootstrap, Html, Css, java scrip y ajax
+]]></notes>
+                    </task>
+                </task>
+            </task>
+            <task id="267" uid="89b2cd3735ec4c68b2bf0312596cb23e" name="Planeacion de modulos" meeting="false" start="2024-04-18" duration="5" complete="87" thirdDate="2024-04-16" thirdDate-constraint="0" expand="true">
+                <task id="276" uid="ea25e01230a44e5abe306e3119e727a8" name="Obtener listado de modulos" meeting="false" start="2024-04-18" duration="2" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[* Se reviso el listado de Modulos complementando lo que falta 
+     - Modulos_Portal-v2
+     - Se complemto del diagrama  Site_Map-v2
+]]></notes>
+                </task>
+                <task id="277" uid="ffac8c7bb321484c8271d2e735286379" name="Definir actividades de cada modulo" meeting="false" start="2024-04-19" duration="4" complete="78" thirdDate="2024-04-17" thirdDate-constraint="0" expand="true">
+                    <task id="282" uid="fff4ee5054eb427bbf198a88e9f76865" name="Establecer tiempos de cada modulo  login" meeting="false" start="2024-04-19" duration="1" complete="50" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <notes><![CDATA[Se creo el gantt y se actualizaron tiempos de de los modulos del login conforme se avance]]></notes>
+                    </task>
+                    <task id="291" uid="41ecfedf055c45d992363f6ef041747e" name="Actualizacion de Pre-requisitos" meeting="false" start="2024-04-24" duration="1" complete="95" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                    <task id="292" uid="2437271508c342d9b062b230d09d5388" name="Diagrama de arqutectura" meeting="false" start="2024-04-24" duration="1" complete="90" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+            <task id="268" uid="cc7a8e79f1b1406bb176b8b127a7bf0e" name="Herramientas de Gestion" meeting="false" start="2024-04-19" duration="4" complete="100" thirdDate="2024-04-18" thirdDate-constraint="0" expand="true">
+                <task id="278" uid="bf9da1afa6e0471eb3c9e6824dd10bb9" name="Jira" meeting="false" start="2024-04-24" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                <task id="279" uid="fc0e34f3a2cf419f850b7b681496812c" name="Gattproject" meeting="false" start="2024-04-19" duration="1" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="269" uid="445418f5b50a4de9ab4d03f38b60548c" name="Entrega de documentacion" meeting="false" start="2024-04-15" duration="5" complete="50" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                <task id="280" uid="104faf8237eb46c89fead2e0a27047a2" name="Envio 1" meeting="false" start="2024-04-19" duration="1" complete="100" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Modulos_Portal-v2
+ConcentradoDeModulosWeb
+Site_Map-v2]]></notes>
+                </task>
+                <task id="284" uid="b003fa439560433aa007bb9790b1b8a7" name="Envio 2" meeting="false" start="2024-04-15" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Gantt plan de trabajo
+Jira actividads]]></notes>
+                </task>
+            </task>
+            <task id="290" uid="955e676836104a90b393cd8dcdd0ed5d" name="Analisis de estrucura de Login" meeting="false" start="2024-04-16" duration="2" complete="100" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Analis de estructura de Login 
+login.asp
+login2.asp
+login_cliente.asp 
+html.asp		  
+functions3.asp	
+timer_lib.asp	
+excel-class.asp
+excel-class2.asp
+variable.asp
+]]></notes>
+            </task>
+        </task>
+        <task id="0" uid="93a427aa7d6b4a56892ee3bf9872c99c" name="Inicio" color="#000000" meeting="false" start="2024-04-08" duration="23" complete="26" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+            <task id="1" uid="463bb11153f24d17b0b9c5f4d5380fd9" name="LogOut" color="#000000" meeting="false" start="2024-04-08" duration="23" complete="26" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
+                <task id="2" uid="5ed39504acff4d2aaa357681da058fe5" name="LogIn" color="#8cb6ce" meeting="false" start="2024-04-08" duration="15" complete="37" thirdDate="2024-04-23" thirdDate-constraint="0" expand="true">
                     <depend id="3" type="2" difference="0" hardness="Strong"/>
-                    <task id="205" uid="2fa49ddbfca34b4898678f669fc897f8" name="Frontend" meeting="false" start="2024-04-23" duration="3" complete="30" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <task id="205" uid="2fa49ddbfca34b4898678f669fc897f8" name="Frontend" meeting="false" start="2024-04-22" duration="2" complete="75" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
                         <notes><![CDATA[- se trabajo la estructura de carpetas 
 - se esta trabajando estilos ]]></notes>
-                        <task id="207" uid="c6c3bddfc054492c85426d16768aa47e" name="Analisis" meeting="false" start="2024-04-23" duration="1" complete="60" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                        <task id="208" uid="47cca79932624dbaa4de9bae6cf22b4a" name="Diseño" meeting="false" start="2024-04-23" duration="1" complete="60" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                        <task id="209" uid="67e7b2809150426ab1090eb154e1b50e" name="Pruebas" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                        <task id="210" uid="536abfb7d75a489c8e2bb631715d0a6f" name="Ajustes" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="207" uid="c6c3bddfc054492c85426d16768aa47e" name="Análisis Frontend de login" meeting="false" start="2024-04-22" duration="1" complete="70" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                            <notes><![CDATA[debug codigo para conocer las reglas
+login.asp
+login2.asp
+login_cliente.asp 
+html.asp		  
+functions3.asp	
+timer_lib.asp	
+excel-class.asp
+excel-class2.asp
+sswd/variable.asp
+]]></notes>
+                        </task>
+                        <task id="208" uid="47cca79932624dbaa4de9bae6cf22b4a" name="Diseño" meeting="false" start="2024-04-22" duration="1" complete="85" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="209" uid="67e7b2809150426ab1090eb154e1b50e" name="Pruebas" meeting="false" start="2024-04-23" duration="1" complete="60" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="210" uid="536abfb7d75a489c8e2bb631715d0a6f" name="Ajustes" meeting="false" start="2024-04-23" duration="1" complete="85" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                     </task>
-                    <task id="206" uid="866eafb20e184c48ba05a5bde1dfa685" name="Backend" meeting="false" start="2024-04-24" duration="2" complete="5" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                    <task id="206" uid="866eafb20e184c48ba05a5bde1dfa685" name="Backend" meeting="false" start="2024-04-08" duration="15" complete="18" thirdDate="2024-04-25" thirdDate-constraint="0" expand="true">
                         <notes><![CDATA[Analisis de back para el login  ]]></notes>
-                        <task id="211" uid="a64046d50b724a1cb01545cdcbe6547e" name="Análisis" meeting="false" start="2024-04-24" duration="1" complete="20" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                        <task id="212" uid="11faa6b504754794b39490b04d2ae7d2" name="Desarrollo" meeting="false" start="2024-04-24" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                        <task id="211" uid="a64046d50b724a1cb01545cdcbe6547e" name="Análisis" meeting="false" start="2024-04-22" duration="1" complete="50" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                            <notes><![CDATA[checklogin.asp
+functions3.asp]]></notes>
+                        </task>
+                        <task id="212" uid="11faa6b504754794b39490b04d2ae7d2" name="Desarrollo" meeting="false" start="2024-04-08" duration="15" complete="20" thirdDate="2024-04-24" thirdDate-constraint="0" expand="true">
+                            <notes><![CDATA[Analis y creación de Stored login]]></notes>
+                            <task id="294" uid="91555d6b51fb41e1b94875f07f0892d0" name="stored de login" meeting="false" start="2024-04-08" duration="15" complete="20" thirdDate="2024-04-25" thirdDate-constraint="0" expand="true">
+                                <notes><![CDATA[- 25-04-2024
+se esta analizando y creando el stored con las reglas de negocio]]></notes>
+                                <task id="295" uid="da6866b8aece4126b845fa7c2838dd8d" name="pruebas del store" meeting="false" start="2024-04-26" duration="1" complete="50" thirdDate="2024-04-11" thirdDate-constraint="0" expand="true"/>
+                                <task id="296" uid="cca29ab522f448349b761c7b3a9e0840" name="ajustes" meeting="false" start="2024-04-26" duration="1" complete="50" thirdDate="2024-04-11" thirdDate-constraint="0" expand="true"/>
+                                <task id="297" uid="083f014ca3734609879e1b3cbf8555a4" name="integracion con el back y forntend del login" meeting="false" start="2024-04-08" duration="1" complete="0" thirdDate="2024-04-08" thirdDate-constraint="0" expand="true">
+                                    <notes><![CDATA[se estara trabajando]]></notes>
+                                    <task id="298" uid="e4ff300b41dc423db491f67aaccae07d" name="Conexion a la base de datos" meeting="false" start="2024-04-08" duration="1" complete="0" thirdDate="2024-04-08" thirdDate-constraint="0" expand="true"/>
+                                    <task id="299" uid="fa625adaa7f14a0b8bb3d97b2dc004b5" name="Llamado a la base de datos" meeting="false" start="2024-04-08" duration="1" complete="0" thirdDate="2024-04-08" thirdDate-constraint="0" expand="true"/>
+                                    <task id="300" uid="3b0a575888e14fc1a1e7795b4444f083" name="integración de backend y frontend Login" meeting="false" start="2024-04-08" duration="1" complete="0" thirdDate="2024-04-08" thirdDate-constraint="0" expand="true"/>
+                                </task>
+                            </task>
+                        </task>
                         <task id="213" uid="3d30b117eac84725879f4723d206c96b" name="Pruebas" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                         <task id="214" uid="3093d9967191433ebc2b99a75b220de5" name="Ajustes" meeting="false" start="2024-04-25" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
-                <task id="3" uid="8a971d0cb93b4d03a6ea8cee03ebf866" name="Login_Cliente" color="#8cb6ce" meeting="false" start="2024-04-26" duration="2" complete="8" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                <task id="3" uid="8a971d0cb93b4d03a6ea8cee03ebf866" name="Login_Cliente" color="#8cb6ce" meeting="false" start="2024-04-29" duration="1" complete="40" thirdDate="2024-04-19" thirdDate-constraint="0" expand="false">
                     <depend id="4" type="2" difference="0" hardness="Strong"/>
-                    <task id="215" uid="1cd76a6003b14593be7a1d48ecac2d4e" name="Frontend" meeting="false" start="2024-04-26" duration="1" complete="17" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
-                        <task id="216" uid="796737d90a1f4bfd9411c0d3f306d360" name="Analisis" meeting="false" start="2024-04-26" duration="1" complete="30" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
-                        <task id="217" uid="f2de495e4273455a999f679770738ecb" name="Diseño" meeting="false" start="2024-04-26" duration="1" complete="40" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
-                        <task id="218" uid="2540e435a56440ddb6517d1446490135" name="Pruebas" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
-                        <task id="219" uid="deaf90d106d843068e555909946956f2" name="Ajustes" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                    <task id="215" uid="1cd76a6003b14593be7a1d48ecac2d4e" name="Frontend" meeting="false" start="2024-04-29" duration="1" complete="81" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <task id="216" uid="796737d90a1f4bfd9411c0d3f306d360" name="Análisis" meeting="false" start="2024-04-29" duration="1" complete="95" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                        <task id="217" uid="f2de495e4273455a999f679770738ecb" name="Diseño" meeting="false" start="2024-04-29" duration="1" complete="85" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                        <task id="218" uid="2540e435a56440ddb6517d1446490135" name="Pruebas" meeting="false" start="2024-04-29" duration="1" complete="60" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                        <task id="219" uid="deaf90d106d843068e555909946956f2" name="Ajustes" meeting="false" start="2024-04-29" duration="1" complete="85" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
                     </task>
-                    <task id="220" uid="6bd50dc2d09d4c168099a0b04f7c685d" name="Backend" meeting="false" start="2024-04-26" duration="2" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true">
-                        <task id="221" uid="53e82f745bdb4729bff85962a8e0bdef" name="Analisis" meeting="false" start="2024-04-26" duration="1" complete="0" expand="true"/>
-                        <task id="222" uid="a5ee847cef3c40b6adc9f26cf470cb08" name="Diseño" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
-                        <task id="223" uid="4031399c991f409ea448e3cf341d004e" name="Pruebas" meeting="false" start="2024-04-26" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                    <task id="220" uid="6bd50dc2d09d4c168099a0b04f7c685d" name="Backend" meeting="false" start="2024-04-29" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true">
+                        <task id="221" uid="53e82f745bdb4729bff85962a8e0bdef" name="Analisis" meeting="false" start="2024-04-29" duration="1" complete="0" expand="true"/>
+                        <task id="222" uid="a5ee847cef3c40b6adc9f26cf470cb08" name="Diseño" meeting="false" start="2024-04-29" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
+                        <task id="223" uid="4031399c991f409ea448e3cf341d004e" name="Pruebas" meeting="false" start="2024-04-29" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
                         <task id="224" uid="fe54ec9ce628407d8d8435b20e40df55" name="Ajustes" meeting="false" start="2024-04-29" duration="1" complete="0" thirdDate="2024-04-26" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
-                <task id="4" uid="07e1ae5e8ff54357a932088ceaab0732" name="Login2" color="#8cb6ce" meeting="false" start="2024-04-30" duration="2" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                <task id="4" uid="07e1ae5e8ff54357a932088ceaab0732" name="Login2" color="#8cb6ce" meeting="false" start="2024-04-30" duration="2" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="false">
                     <depend id="5" type="2" difference="0" hardness="Strong"/>
                     <task id="225" uid="80e15d9a4c2c4140b2b2f94fd7411beb" name="Frontend" meeting="false" start="2024-04-30" duration="2" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
                         <task id="240" uid="e8903717b53844a9960fee65240592ea" name="Analis" meeting="false" start="2024-04-30" duration="1" complete="0" thirdDate="2024-04-30" thirdDate-constraint="0" expand="true"/>
@@ -80,577 +201,44 @@
                         <task id="227" uid="a4c9ef4aad9a4fd4ad6634f59c1ff80e" name="Pruebas" meeting="false" start="2024-04-30" duration="1" complete="0" thirdDate="2024-04-30" thirdDate-constraint="0" expand="true"/>
                         <task id="228" uid="a82f70c586c84cd7810538faa321b66c" name="Ajustes" meeting="false" start="2024-05-01" duration="1" complete="0" thirdDate="2024-04-30" thirdDate-constraint="0" expand="true"/>
                     </task>
+                    <task id="239" uid="b6cb0f4b7a89451ca95684409caa7bbd" name="Backend" meeting="false" start="2024-05-01" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <task id="238" uid="6839e871c23b4bb28eb917a9dfb99e4f" name="Analisis" meeting="false" start="2024-05-01" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                    </task>
                 </task>
-                <task id="239" uid="b6cb0f4b7a89451ca95684409caa7bbd" name="Backend" meeting="false" start="2024-05-01" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
-                    <task id="238" uid="6839e871c23b4bb28eb917a9dfb99e4f" name="Analisis" meeting="false" start="2024-05-01" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
-                </task>
-                <task id="5" uid="1c63330c06cf4d96a46fea01a87945c5" name="Home" color="#8cb6ce" meeting="false" start="2024-05-02" duration="3" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                <task id="5" uid="1c63330c06cf4d96a46fea01a87945c5" name="Home" color="#8cb6ce" meeting="false" start="2024-05-02" duration="3" complete="21" thirdDate="2024-04-19" thirdDate-constraint="0" expand="false">
                     <depend id="6" type="2" difference="0" hardness="Strong"/>
-                    <task id="229" uid="7852a71254ce492985ae056cdaaf669b" name="Frontend" meeting="false" start="2024-05-02" duration="3" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
-                        <task id="241" uid="758727ddcc1949d68bae2b77bac3df00" name="Análisis" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
-                        <task id="230" uid="ad6b13cb740a46128a8f67771ea8e1f9" name="Diseño" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
+                    <task id="229" uid="7852a71254ce492985ae056cdaaf669b" name="Frontend" meeting="false" start="2024-05-02" duration="3" complete="20" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <task id="241" uid="758727ddcc1949d68bae2b77bac3df00" name="Análisis" meeting="false" start="2024-05-02" duration="1" complete="40" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
+                        <task id="230" uid="ad6b13cb740a46128a8f67771ea8e1f9" name="Diseño" meeting="false" start="2024-05-02" duration="1" complete="40" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                         <task id="231" uid="b1cfd66f90da4c6692613370d86564c7" name="Pruebas" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                         <task id="232" uid="94d25d8106564d8eb7fc974ad3243d01" name="Ajustes" meeting="false" start="2024-05-06" duration="1" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true"/>
                     </task>
-                    <task id="243" uid="b464430a97214c09bc4b51c513d97710" name="Backend" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                        <task id="244" uid="07a80e8f134042d2ad7a551ff2a72909" name="Análisis" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
+                    <task id="243" uid="b464430a97214c09bc4b51c513d97710" name="Backend" meeting="false" start="2024-05-02" duration="1" complete="23" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
+                        <task id="244" uid="07a80e8f134042d2ad7a551ff2a72909" name="Análisis" meeting="false" start="2024-05-02" duration="1" complete="95" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
                         <task id="245" uid="0ec80f8c99b2425794ae2f93485b389b" name="Desarrollo" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
                         <task id="246" uid="6f94b7ce75104e629a817f97e59e2beb" name="Pruebas" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
                         <task id="247" uid="c7f36061d4bf407ba52fcc7cdcad8bf7" name="Ajustes" meeting="false" start="2024-05-02" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
-                <task id="6" uid="43cfc0ebdd4d42c298d347116cbfacd3" name="Menu" color="#8cb6ce" meeting="false" start="2024-05-07" duration="2" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
-                    <depend id="8" type="2" difference="0" hardness="Strong"/>
-                    <task id="233" uid="9d78fa97ca5541a7bb4247388b6a090d" name="Frontend" meeting="false" start="2024-05-07" duration="2" complete="0" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
-                        <task id="248" uid="ed023d7887b747fd9c08e90e4a44bc4a" name="Análisis" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
-                        <task id="234" uid="60c5e74a92f046599edc4bc5d4a5d29f" name="Diseño" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                <task id="6" uid="43cfc0ebdd4d42c298d347116cbfacd3" name="Menu" color="#8cb6ce" meeting="false" start="2024-05-07" duration="2" complete="16" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                    <task id="233" uid="9d78fa97ca5541a7bb4247388b6a090d" name="Frontend" meeting="false" start="2024-05-07" duration="2" complete="20" thirdDate="2024-04-15" thirdDate-constraint="0" expand="true">
+                        <task id="248" uid="ed023d7887b747fd9c08e90e4a44bc4a" name="Análisis" meeting="false" start="2024-05-07" duration="1" complete="40" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                        <task id="234" uid="60c5e74a92f046599edc4bc5d4a5d29f" name="Diseño" meeting="false" start="2024-05-07" duration="1" complete="40" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
                         <task id="235" uid="eba35ca0e19d4c988884e839a01204ea" name="Pruebas" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
                         <task id="236" uid="1a22b031536a4727a7da66226ef90164" name="Ajustes" meeting="false" start="2024-05-08" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
                     </task>
-                    <task id="249" uid="b32ab1eb4df24996bb18480e24430f56" name="Backend" meeting="false" start="2024-05-07" duration="1" complete="0" expand="true">
-                        <task id="250" uid="aac44404d7044023b06d7648830b3105" name="Análisis" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
-                        <task id="251" uid="60123198340d48a5b4998e816530ae63" name="Desarrollo" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                    <task id="249" uid="b32ab1eb4df24996bb18480e24430f56" name="Backend" meeting="false" start="2024-05-07" duration="1" complete="12" expand="true">
+                        <task id="250" uid="aac44404d7044023b06d7648830b3105" name="Análisis" meeting="false" start="2024-05-07" duration="1" complete="50" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true">
+                            <task id="254" uid="5419232d3cdd43269d0546e0d6666702" name="analis y crear stord de Login" meeting="false" start="2024-05-07" duration="1" complete="50" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
+                        </task>
+                        <task id="251" uid="60123198340d48a5b4998e816530ae63" name="Desarrollo" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true">
+                            <task id="293" uid="2c5565ddaf9b425a9d6804a31454bfae" name="task_293" meeting="false" start="2024-05-07" duration="1" complete="0" expand="true"/>
+                        </task>
                         <task id="252" uid="457436911f4b406aae60cae6d90bd1b9" name="pruebas" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
                         <task id="253" uid="ef23b5b1e3da43dea30eccb1787085f3" name="Ajustes" meeting="false" start="2024-05-07" duration="1" complete="0" thirdDate="2024-05-07" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
             </task>
-        </task>
-        <task id="7" uid="00fac7a4262945abbd47a191e687d25b" name="Comercio Exterior" meeting="false" start="2024-05-09" duration="35" complete="0" expand="false">
-            <task id="8" uid="2692e0b2a49b44c983e49bae33b4edb0" name="Simple Queries (principal)" color="#8cb6ce" meeting="false" start="2024-05-09" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
-                <depend id="11" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="9" uid="754e3db400324c0cbed0a6c04e66326c" name="Multiple Queries" meeting="false" start="2024-05-10" duration="10" complete="0" expand="true">
-                <task id="10" uid="626455686ae044ea97c9ba3e0ab19b86" name="Import" meeting="false" start="2024-05-10" duration="5" complete="0" expand="true">
-                    <task id="11" uid="bd077b7c7a064842826b6d95b00db0f7" name="Land" color="#8cb6ce" meeting="false" start="2024-05-10" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
-                        <depend id="12" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="12" uid="0fc4f0623095402eae6e81766c56537c" name="Sea" color="#8cb6ce" meeting="false" start="2024-05-13" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
-                        <depend id="13" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="13" uid="535b9cd52ce744fca4ab012d46741484" name="Air" color="#8cb6ce" meeting="false" start="2024-05-14" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
-                        <depend id="14" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="14" uid="d607e47c210b4d539f8b9ab6d5ea0746" name="Intermodal Land" color="#8cb6ce" meeting="false" start="2024-05-15" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
-                        <depend id="15" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="15" uid="8341bfece07f4518ab102a1b0f5cdaad" name="Intermodal Sea" color="#8cb6ce" meeting="false" start="2024-05-16" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="false">
-                        <depend id="17" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="16" uid="97dff2d69f5440d0abc3939614edda13" name="Export" meeting="false" start="2024-05-17" duration="3" complete="0" expand="true">
-                    <task id="17" uid="0fec2e6e433344d69cc2eaaea4cc0a63" name="Land" color="#8cb6ce" meeting="false" start="2024-05-17" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
-                        <depend id="18" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="18" uid="743050055f6241c5aafc46d897f86d0d" name="Sea" color="#8cb6ce" meeting="false" start="2024-05-20" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
-                        <depend id="19" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="19" uid="b4b07d359de44f1088160365dd953090" name="Air" color="#8cb6ce" meeting="false" start="2024-05-21" duration="1" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
-                        <depend id="20" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="20" uid="dae7da5191524a91acf0bf547cdc4f54" name="All Trafic" color="#8cb6ce" meeting="false" start="2024-05-22" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                    <depend id="21" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="21" uid="fcc9f4ca56454906b9740ce29b59af53" name="Entry Summary" color="#8cb6ce" meeting="false" start="2024-05-23" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                    <depend id="23" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="22" uid="a2191e0e0be64e118be41dd76e2eded2" name="Financial" meeting="false" start="2024-05-24" duration="6" complete="0" expand="true">
-                <task id="23" uid="81c346502a474532bbad457f3e4f20b4" name="Account Statement" color="#8cb6ce" meeting="false" start="2024-05-24" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                    <depend id="25" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="24" uid="a6c306971abb441fb4d0fb324a6ac5e9" name="Invoices" meeting="false" start="2024-05-27" duration="2" complete="0" expand="true">
-                    <task id="25" uid="c480c8be48ae444a8cfb930251a2dfc9" name="American Invoices" color="#8cb6ce" meeting="false" start="2024-05-27" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                        <depend id="26" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="26" uid="7ede4a9ee20d4c2e9ca968d65d9debf1" name="Mexican invoices" color="#8cb6ce" meeting="false" start="2024-05-28" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                        <depend id="28" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="27" uid="7e7b8ddf830c4dc781119d6b37ef22cb" name="Payments" meeting="false" start="2024-05-29" duration="3" complete="0" expand="true">
-                    <task id="28" uid="00d7b68a60554d1593f3b5caeecfbd85" name="Advanced Payments" color="#8cb6ce" meeting="false" start="2024-05-29" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                        <depend id="29" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="29" uid="0e5fc77d2a554a3f86584fc48556ab98" name="Invoices Payments" color="#8cb6ce" meeting="false" start="2024-05-30" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                        <depend id="30" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="30" uid="6cc1461cca014355af55edc1aedc4ab3" name="Payments (General)" color="#8cb6ce" meeting="false" start="2024-05-31" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                        <depend id="32" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-            </task>
-            <task id="31" uid="f699acffbe8942b3b7d996565f937137" name="Downloads" meeting="false" start="2024-06-03" duration="2" complete="0" expand="true">
-                <task id="32" uid="61c2b07db9ed4fe78c405791db19cd33" name="Operation" color="#8cb6ce" meeting="false" start="2024-06-03" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                    <depend id="33" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="33" uid="40f3847e23ac44509a73513bbe08da20" name="Financial" color="#8cb6ce" meeting="false" start="2024-06-04" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                    <depend id="37" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="34" uid="9ed5ae6e9a2b42fd8ecb956483b168a5" name="Remesas" meeting="false" start="2024-06-05" duration="8" complete="0" expand="true">
-                <task id="35" uid="988daf3ca1ef44faadbd473046d71c01" name="Consultar" meeting="false" start="2024-06-05" duration="4" complete="0" expand="true">
-                    <task id="36" uid="56412e82e36a4de385ecdc6b94d7b558" name="Remesa Normal" meeting="false" start="2024-06-05" duration="2" complete="0" expand="true">
-                        <task id="37" uid="d60917364f35419e8a3a9d4b69260f19" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-05" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                            <depend id="38" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="38" uid="eda70bebe9e04140b2191203e89d0d88" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-06" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
-                            <depend id="40" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                    </task>
-                    <task id="39" uid="ec0a3055319e44d8b8b8712ed3326431" name="Remesa Virtual" meeting="false" start="2024-06-07" duration="2" complete="0" expand="true">
-                        <task id="40" uid="e9bc5720f53d47e2b51e8bfcbe1894e5" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-07" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
-                            <depend id="41" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="41" uid="b466912311964cada5747773cb067200" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-10" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
-                            <depend id="44" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                    </task>
-                </task>
-                <task id="42" uid="5c7c28c6a7ac40f4a7622f208fa6e78a" name="Cargar" meeting="false" start="2024-06-11" duration="4" complete="0" expand="true">
-                    <task id="43" uid="1528fb0da7ec47df8ef559860397935b" name="Remesa Normal" meeting="false" start="2024-06-11" duration="2" complete="0" expand="true">
-                        <task id="44" uid="69a797416cdb481b9bb4ad810f5e8730" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-11" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
-                            <depend id="45" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="45" uid="666e64a2344e44dd9d4d66bcc0e23854" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-12" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
-                            <depend id="47" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                    </task>
-                    <task id="46" uid="1e5a4e289c7b4035a594a954bf34588f" name="Remesa Virtual" meeting="false" start="2024-06-13" duration="2" complete="0" expand="true">
-                        <task id="47" uid="7deec10406fa4d84ad7cdf692fd64c35" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-13" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
-                            <depend id="48" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="48" uid="01daeb7f75f940918cb23fd28fd254e7" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-14" duration="1" complete="0" thirdDate="2024-05-17" thirdDate-constraint="0" expand="true">
-                            <depend id="52" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                    </task>
-                </task>
-            </task>
-            <task id="49" uid="3f1d35dfc0694423b8913b76d3d832f7" name="Remesas Cove" meeting="false" start="2024-06-17" duration="8" complete="0" expand="true">
-                <task id="50" uid="a64485bc40b0402382bb23c62790e632" name="Cargar" meeting="false" start="2024-06-17" duration="4" complete="0" expand="true">
-                    <task id="51" uid="171d5229d0b441459a620f4d24b00db9" name="Remesa Normal" meeting="false" start="2024-06-17" duration="2" complete="0" expand="true">
-                        <task id="52" uid="c3256016516a487f90245a70f2f7a65a" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-17" duration="1" complete="0" thirdDate="2024-05-27" thirdDate-constraint="0" expand="true">
-                            <depend id="53" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="53" uid="c5b7bf37a6014af0ba9159b9e89e93d6" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-18" duration="1" complete="0" thirdDate="2024-05-27" thirdDate-constraint="0" expand="true">
-                            <depend id="55" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                    </task>
-                    <task id="54" uid="a4169db61bf04972af98ca847e4e15a8" name="Remesa Virtual" meeting="false" start="2024-06-19" duration="2" complete="0" expand="true">
-                        <task id="55" uid="76573cc832af4effae1dcd7179b2a281" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-19" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
-                            <depend id="56" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="56" uid="82b9d8d0fe74436ba23b6938245026b2" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-20" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
-                            <depend id="59" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                    </task>
-                </task>
-                <task id="57" uid="3c8d7000562f4590859898937b51835e" name="Consultar" meeting="false" start="2024-06-21" duration="4" complete="0" expand="true">
-                    <task id="58" uid="f5b7ff4cf81244428453a54c8971a780" name="Remesa Normal" meeting="false" start="2024-06-21" duration="2" complete="0" expand="true">
-                        <task id="59" uid="a37e6c85c3e24915993a25be842db63d" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-21" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
-                            <depend id="60" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="60" uid="56fbc8b882a8450cbb56d3e9d027f629" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-24" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
-                            <depend id="62" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                    </task>
-                    <task id="61" uid="cb29ac85c6634bfb999553339e8c1456" name="Remesa Virtual" meeting="false" start="2024-06-25" duration="2" complete="0" expand="true">
-                        <task id="62" uid="0f8b64c1f1a648c292dc69361fa4bddf" name="Importación" color="#8cb6ce" meeting="false" start="2024-06-25" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
-                            <depend id="63" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="63" uid="b83dbac1ec5244ecaf3ff4b4ce7541c4" name="Exportación" color="#8cb6ce" meeting="false" start="2024-06-26" duration="1" complete="0" thirdDate="2024-06-03" thirdDate-constraint="0" expand="true">
-                            <depend id="65" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                    </task>
-                </task>
-            </task>
-        </task>
-        <task id="64" uid="a2d1681dec23434985e1bbd194113997" name="Finanzas" meeting="false" start="2024-06-27" duration="13" complete="0" expand="false">
-            <task id="65" uid="4ea32bc7e35b4e49be3e7587b952c9af" name="Account Statement" color="#8cb6ce" meeting="false" start="2024-06-27" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                <depend id="68" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="66" uid="9c5fd09a83bb4a41a95bbc02d53e3c95" name="Invoices" meeting="false" start="2024-06-28" duration="4" complete="0" expand="true">
-                <task id="67" uid="0330e521fa1c40a3a304748d41bd0e3f" name="Amercian Voices" meeting="false" start="2024-06-28" duration="2" complete="0" expand="true">
-                    <task id="68" uid="142978511e154c54bdcf8d4497121e4c" name="By Number" color="#8cb6ce" meeting="false" start="2024-06-28" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="69" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="69" uid="1fde0c725d374e21924f942f6a2f141c" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-01" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="71" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="70" uid="05e47219f4cd4ab094e129a27f826ad3" name="Mexican Voices" meeting="false" start="2024-07-02" duration="2" complete="0" expand="true">
-                    <task id="71" uid="012a39833a19474a8f91ebc951477cdb" name="By Number" color="#8cb6ce" meeting="false" start="2024-07-02" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="72" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="72" uid="25c02f94a173458984213809e965d90f" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-03" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="75" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-            </task>
-            <task id="73" uid="6a44871270f6485293af17a2b1823e3f" name="Payments" meeting="false" start="2024-07-04" duration="8" complete="0" expand="true">
-                <task id="74" uid="689363e5ef974fa4bf74e64a91d11bf6" name="Advanced payments" meeting="false" start="2024-07-04" duration="2" complete="0" expand="true">
-                    <task id="75" uid="4377a730c2bc43c286c88275fd7638d9" name="By Payment Ref" color="#8cb6ce" meeting="false" start="2024-07-04" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="76" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="76" uid="d94e55a89e454609b76f8570bbc1cd02" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-05" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="78" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="77" uid="818037980fb945e681bb04e87cdd119c" name="InVoices Payments" meeting="false" start="2024-07-08" duration="3" complete="0" expand="true">
-                    <task id="78" uid="83b5288597174147b3a5f87035ec7306" name="By Payment Ref" color="#8cb6ce" meeting="false" start="2024-07-08" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="79" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="79" uid="e864449bb55b45b78782a4e297733e04" name="By Logis Payment Ref." color="#8cb6ce" meeting="false" start="2024-07-09" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="80" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="80" uid="67ab7394b41e468e8547f04e8abb17c7" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-10" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="82" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="81" uid="053e796ef8474a45921fb95c22992f49" name="Payments (General)" meeting="false" start="2024-07-11" duration="3" complete="0" expand="true">
-                    <task id="82" uid="0416f854fbed4a26b438aedc5a90db58" name="By Payment Ref" color="#8cb6ce" meeting="false" start="2024-07-11" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="83" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="83" uid="596bca423d064441b8608df3882b9ec3" name="By Logis Payment Ref." color="#8cb6ce" meeting="false" start="2024-07-12" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="84" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="84" uid="e89d211b8cef48449f64580dfeedf4f7" name="By Date" color="#8cb6ce" meeting="false" start="2024-07-15" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                        <depend id="87" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-            </task>
-        </task>
-        <task id="85" uid="41c18782fda747c3a619ec07c28a3658" name="Almacenaje / Distribución" meeting="false" start="2024-07-16" duration="45" complete="0" expand="false">
-            <task id="86" uid="856b50015aa2469a8a8617c4ffe7d15c" name="Entradas" meeting="false" start="2024-07-16" duration="5" complete="0" expand="true">
-                <task id="87" uid="decf31131241490184f002cd5653d102" name="Por num." color="#8cb6ce" meeting="false" start="2024-07-16" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="88" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="88" uid="376b7588a1f54daf914915d4d9bdcb88" name="Por fechas" color="#8cb6ce" meeting="false" start="2024-07-17" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="89" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="89" uid="464ebab0fd01452c91f1796d2986c96b" name="Por doc. de entrada" color="#8cb6ce" meeting="false" start="2024-07-18" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="90" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="90" uid="bff067a53f064949b222da09bca61884" name="Por referencia" color="#8cb6ce" meeting="false" start="2024-07-19" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="91" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="91" uid="c457cd2884e7481dbb314994c273b0da" name="Criterios multiples" color="#8cb6ce" meeting="false" start="2024-07-22" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="93" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="92" uid="0a0e774f4aa94a5697f1405f4958317d" name="Pedidos" meeting="false" start="2024-07-23" duration="7" complete="0" expand="true">
-                <task id="93" uid="0ddad99b0638497486915081bf54930a" name="Por num." color="#8cb6ce" meeting="false" start="2024-07-23" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="94" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="94" uid="6a6a361d6f8a44c3b00820afe79f4550" name="Por fechas" color="#8cb6ce" meeting="false" start="2024-07-24" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="95" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="95" uid="3c8adb40f40f417599eb404bced42c10" name="Por referencia" color="#8cb6ce" meeting="false" start="2024-07-25" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="96" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="96" uid="425a2909ff294979bb3d43f3b926005a" name="Criterios multiples" color="#8cb6ce" meeting="false" start="2024-07-26" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="97" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="97" uid="aa7a37da86354709bf46ca8ae850e408" name="Carga Archivos" color="#8cb6ce" meeting="false" start="2024-07-29" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="98" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="98" uid="283638d7d336473680100ce8531d34d9" name="Carga aviso entrada" color="#8cb6ce" meeting="false" start="2024-07-30" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="99" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="99" uid="87d0a8b92b7a450b94d2ad0acc2e7e5a" name="Cotizador CD" color="#8cb6ce" meeting="false" start="2024-07-31" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="101" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="100" uid="53359d3feea94ed580484ac20f82e591" name="Salidas" meeting="false" start="2024-08-01" duration="3" complete="0" expand="true">
-                <task id="101" uid="ed1bd1f389884e41a9a5785c36a84b76" name="Por num." color="#8cb6ce" meeting="false" start="2024-08-01" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="102" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="102" uid="133c0f58d30f454597048bb41b7f13a6" name="Por fechas" color="#8cb6ce" meeting="false" start="2024-08-02" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="103" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="103" uid="6f0ba0049fc94e949f2be6359d5ecbcc" name="Por referencia" color="#8cb6ce" meeting="false" start="2024-08-05" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="105" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="104" uid="eb92df0d127144bb9c69322090373346" name="Inventarios" meeting="false" start="2024-08-06" duration="5" complete="0" expand="true">
-                <task id="105" uid="de422838c0354b6fa6922ac467a83c0f" name="Actual" color="#8cb6ce" meeting="false" start="2024-08-06" duration="1" complete="0" thirdDate="2024-06-20" thirdDate-constraint="0" expand="true">
-                    <depend id="107" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="106" uid="097816b07e614afa86fb3ee97084c149" name="Anterior" meeting="false" start="2024-08-07" duration="2" complete="0" expand="true">
-                    <task id="107" uid="8bf9551a95ca4366beb2aac3f0c3b7bb" name="Por Referencia" color="#8cb6ce" meeting="false" start="2024-08-07" duration="1" complete="0" thirdDate="2024-07-19" thirdDate-constraint="0" expand="true">
-                        <depend id="108" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="108" uid="23192fcba8b048d481c505b503ead4cb" name="Completo (Excel)" color="#8cb6ce" meeting="false" start="2024-08-08" duration="1" complete="0" thirdDate="2024-07-19" thirdDate-constraint="0" expand="true">
-                        <depend id="109" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="109" uid="212583a6a456490da8179432a7f66af9" name="Componentes" color="#8cb6ce" meeting="false" start="2024-08-09" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                    <depend id="110" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="110" uid="a191c7e42f504328837f43643b80a0a6" name="Control Inventario" color="#8cb6ce" meeting="false" start="2024-08-12" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                    <depend id="111" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="111" uid="e61e00bf1afd4f58ae641e5c518fab90" name="Incidencias" color="#8cb6ce" meeting="false" start="2024-08-13" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                <depend id="113" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="112" uid="b31a1d9e81d0460b988f5e39492a7431" name="Evidencias" meeting="false" start="2024-08-14" duration="3" complete="0" expand="true">
-                <task id="113" uid="63a88ef850a140f3a6c0957ee5bef8ab" name="Por num." color="#8cb6ce" meeting="false" start="2024-08-14" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                    <depend id="114" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="114" uid="40116d06aa714f59b36fd07c53389452" name="Por fechas" color="#8cb6ce" meeting="false" start="2024-08-15" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                    <depend id="115" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="115" uid="c479e0235c774b3292a55cb1dfa0a4a8" name="Criterios multiples" color="#8cb6ce" meeting="false" start="2024-08-16" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                    <depend id="117" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="116" uid="5a8dadc82c174d7da164c642da4dc218" name="Control IMEI" meeting="false" start="2024-08-19" duration="13" complete="0" expand="true">
-                <task id="117" uid="de3f0fc00fb040039342962b3b61bf97" name="Por IMEI" color="#8cb6ce" meeting="false" start="2024-08-19" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                    <depend id="118" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="118" uid="249ca978317f4890afcbec0ac5185bc5" name="Por Folio Operador" color="#8cb6ce" meeting="false" start="2024-08-20" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                    <depend id="120" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="119" uid="c59fb4f49f584b1984e15d04fad2c503" name="Criterios Multiples" meeting="false" start="2024-08-21" duration="4" complete="0" expand="true">
-                    <task id="120" uid="81121f4515414af7b3fbcca1fa86ae6d" name="Entrada" color="#8cb6ce" meeting="false" start="2024-08-21" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="121" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="121" uid="2a7feb15386141d9aaee4ce12b757e93" name="Pedidos" color="#8cb6ce" meeting="false" start="2024-08-22" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="122" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="122" uid="5b7fbd30ba124b64953d4d56070fc169" name="Transferencias" color="#8cb6ce" meeting="false" start="2024-08-23" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="123" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="123" uid="777db7e2d6f1475b83dc81177872e268" name="Salidas" color="#8cb6ce" meeting="false" start="2024-08-26" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="125" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="124" uid="b0fdc371875a4341b83809ec39c56ba5" name="Downloads IMEI" meeting="false" start="2024-08-27" duration="7" complete="0" expand="true">
-                    <task id="125" uid="1029118cc99b41e08c0ca9cf7b5a8556" name="Reportes" color="#8cb6ce" meeting="false" start="2024-08-27" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="126" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="126" uid="795d6d94541744a180c27b8aa19aceba" name="Inventarios" color="#8cb6ce" meeting="false" start="2024-08-28" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="127" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="127" uid="829c28c147c34ee9888564c444bd1f9e" name="Inventarios SL" color="#8cb6ce" meeting="false" start="2024-08-29" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="128" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="128" uid="62786668634843889d3f8a33e4f76a03" name="Indicadores de calidad" color="#8cb6ce" meeting="false" start="2024-08-30" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="129" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="129" uid="8b33bfcdbb1a4e6e8cade23aac200983" name="Control IMEIs(SEMX)" color="#8cb6ce" meeting="false" start="2024-09-02" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="130" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="130" uid="6d806682ce9e4745bc33ce92c26d2b0d" name="Entradas / Salidas" color="#8cb6ce" meeting="false" start="2024-09-03" duration="1" complete="0" thirdDate="2024-07-23" thirdDate-constraint="0" expand="true">
-                        <depend id="131" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="131" uid="df6fc488524c4c80b886db09148ef239" name="Reporte IMEIs (por archivo)" color="#8cb6ce" meeting="false" start="2024-09-04" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                        <depend id="133" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-            </task>
-            <task id="132" uid="035c9aebb59e42518e9f32bcfff14009" name="Reportes Internos" meeting="false" start="2024-09-05" duration="6" complete="0" expand="true">
-                <task id="133" uid="6d7c1a64d1434d00ab5cf1e848ece30c" name="Reportes de control" color="#8cb6ce" meeting="false" start="2024-09-05" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="134" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="134" uid="bb6804477be44b9e9f806d57f2f0e30b" name="Estadisticas IN/OUT" color="#8cb6ce" meeting="false" start="2024-09-06" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="135" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="135" uid="5b07420d06024cbda2c28d31d645a647" name="Picking (-3 a 2 dias de tiempo global)" color="#8cb6ce" meeting="false" start="2024-09-09" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="136" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="136" uid="538c3fd8d9f5435e8524553515132b8a" name="Inventarios por almacen" color="#8cb6ce" meeting="false" start="2024-09-10" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="137" type="2" difference="0" hardness="Strong"/>
-                    <task id="142" uid="90194cc8a9094033a82a7807e05d08bc" name="Distribución / LTL" meeting="false" start="2024-09-10" duration="1" complete="0" expand="true"/>
-                </task>
-                <task id="137" uid="6dc156f08262436bbe34be76d570c87f" name="Captura Obs. IMEIs" color="#8cb6ce" meeting="false" start="2024-09-11" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="138" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="138" uid="87afec9d199b480a972fdb8e4412b51c" name="Localizacion IMEIs" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="140" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="139" uid="4b411370ba9c45ab9633dbbf35ec71da" name="Recolección" meeting="false" start="2024-09-13" duration="2" complete="0" expand="true">
-                <task id="140" uid="f231fa9c8d7c45ff9fcc7090b9d45fd6" name="Por Num" color="#8cb6ce" meeting="false" start="2024-09-13" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="141" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="141" uid="8be889284f4c43418b31423e6c4eea2a" name="Por Fechas" color="#8cb6ce" meeting="false" start="2024-09-16" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="145" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-        </task>
-        <task id="143" uid="c3c09275251349a3815d53e79e92ea96" name="Distribución / LTL" color="#8cb6ce" meeting="false" start="2024-09-17" duration="25" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="false">
-            <task id="144" uid="cbaeeda9c9e14d91bf9c425e4fad5527" name="Catalogos" color="#8cb6ce" meeting="false" start="2024-09-17" duration="2" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                <task id="145" uid="57a3c2c207b148fd9871b7a0d5674f84" name="Remitentes" color="#8cb6ce" meeting="false" start="2024-09-17" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="146" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="146" uid="a06dd992ea02477196c4e13a256a6348" name="Destinatarios" color="#8cb6ce" meeting="false" start="2024-09-18" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="148" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="147" uid="87df2bf3f8e045c5b68deb2d889698dd" name="LTL" meeting="false" start="2024-09-19" duration="8" complete="0" expand="true">
-                <task id="148" uid="1c9553893b034392bc8dd7ec22a3e7aa" name="Venta Mostrador" color="#8cb6ce" meeting="false" start="2024-09-19" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="149" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="149" uid="d938d6d6ba214318a582ccdcef21a887" name="Saldo Monedero Electronico" color="#8cb6ce" meeting="false" start="2024-09-20" duration="1" complete="0" thirdDate="2024-08-19" thirdDate-constraint="0" expand="true">
-                    <depend id="150" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="150" uid="c949a6b21f1c4c9c95a1d55d97684c16" name="Consulta" color="#8cb6ce" meeting="false" start="2024-09-23" duration="1" complete="0" thirdDate="2024-08-22" thirdDate-constraint="0" expand="true">
-                    <depend id="151" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="151" uid="65d222442879427196c7694d548e4a7b" name="Criterios Multiples" color="#8cb6ce" meeting="false" start="2024-09-24" duration="1" complete="0" thirdDate="2024-05-02" thirdDate-constraint="0" expand="true">
-                    <depend id="152" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="152" uid="942b1e38de2540e28e72c2917bd70186" name="Download talones (excel)" color="#8cb6ce" meeting="false" start="2024-09-25" duration="1" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true">
-                    <depend id="153" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="153" uid="be0400ccbb46452d9fe9577a0d65e317" name="Imprimir varios talones (PDF)" color="#8cb6ce" meeting="false" start="2024-09-26" duration="1" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true">
-                    <depend id="154" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="154" uid="776baaeaf8a64466a3db3615ac5a52e0" name="Imprimir resumenes de cargos" color="#8cb6ce" meeting="false" start="2024-09-27" duration="1" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true">
-                    <depend id="155" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="155" uid="7a0729d169d74662b2b9f876d7c76402" name="Cotizador" color="#8cb6ce" meeting="false" start="2024-09-30" duration="1" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true">
-                    <depend id="157" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="156" uid="e8850371e7d14715a2918c331544a8f9" name="Convertidores/Tarima" meeting="false" start="2024-10-01" duration="2" complete="0" expand="true">
-                <task id="157" uid="92d0ffc1a48c42f88679bd620ca3770a" name="Asociar facturas" color="#8cb6ce" meeting="false" start="2024-10-01" duration="1" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true">
-                    <depend id="158" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="158" uid="34c9d968f84f4844ad38d96aabb41202" name="Consulta" color="#8cb6ce" meeting="false" start="2024-10-02" duration="1" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true">
-                    <depend id="160" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-            <task id="159" uid="237c287ba10f4571b65bea2aedfb883c" name="Manifiestos" meeting="false" start="2024-10-03" duration="13" complete="0" expand="true">
-                <task id="160" uid="1260faceabef43a6ac5d7e079e74d40a" name="Alta" color="#8cb6ce" meeting="false" start="2024-10-03" duration="1" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true">
-                    <depend id="161" type="2" difference="0" hardness="Strong"/>
-                    <depend id="162" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="161" uid="62d94dce9a6c43cdbd2c17bd47693e5c" name="Alta Encabezados" color="#8cb6ce" meeting="false" start="2024-10-04" duration="4" complete="0" thirdDate="2024-09-10" thirdDate-constraint="0" expand="true">
-                    <task id="162" uid="b412fb57c01644d3a5cf54833ab1a11b" name="Alta con Corte" color="#8cb6ce" meeting="false" start="2024-10-04" duration="1" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
-                        <depend id="163" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="163" uid="f37b3ee89c974c24b89b7a22bf253977" name="Documentar NUI" color="#8cb6ce" meeting="false" start="2024-10-07" duration="1" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
-                        <depend id="164" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="164" uid="0089f62b0c1f49f28f81d4198eaa4a80" name="Documentacion de registro Ligado" color="#8cb6ce" meeting="false" start="2024-10-08" duration="1" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
-                        <depend id="165" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="165" uid="7105c1bd346e45c28296c2b7494cb511" name="Documentar registro Recoleccion" color="#8cb6ce" meeting="false" start="2024-10-09" duration="1" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
-                        <depend id="166" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="166" uid="e4234b2a0532476398a2024193bed523" name="Recoleccion Foraneo" color="#8cb6ce" meeting="false" start="2024-10-10" duration="1" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
-                    <depend id="167" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="167" uid="34bc7f54b6b146c4ad6d300777011c53" name="Carga archivo" color="#8cb6ce" meeting="false" start="2024-10-11" duration="1" complete="0" thirdDate="2024-09-19" thirdDate-constraint="0" expand="true">
-                    <depend id="169" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="168" uid="5e809f982d32421594f87f2dcc58f8cc" name="Consulta" meeting="false" start="2024-10-14" duration="4" complete="0" expand="true">
-                    <task id="169" uid="2abed273684b49a1ba83bdd713251a9e" name="Normal" color="#8cb6ce" meeting="false" start="2024-10-14" duration="1" complete="0" thirdDate="2024-09-19" thirdDate-constraint="0" expand="true">
-                        <depend id="170" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="170" uid="22e484f451fc4e61ab8c6a198ecaf575" name="Corte" color="#8cb6ce" meeting="false" start="2024-10-15" duration="1" complete="0" thirdDate="2024-09-19" thirdDate-constraint="0" expand="true">
-                        <depend id="171" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="171" uid="cb1661811bdc4068aa7f9ff5c1dfc85e" name="Prueba" color="#8cb6ce" meeting="false" start="2024-10-16" duration="1" complete="0" thirdDate="2024-09-19" thirdDate-constraint="0" expand="true">
-                        <depend id="172" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="172" uid="a5adf087073f4bf988317754d0412762" name="Recoleccion Foranea / Devolucion" color="#8cb6ce" meeting="false" start="2024-10-17" duration="1" complete="0" thirdDate="2024-09-19" thirdDate-constraint="0" expand="true">
-                        <depend id="173" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="173" uid="1e7c2df4f0864bed995dae82f825f8fe" name="Documentacion Masiva de NUIs" color="#8cb6ce" meeting="false" start="2024-10-18" duration="1" complete="0" thirdDate="2024-09-19" thirdDate-constraint="0" expand="true">
-                    <depend id="174" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="174" uid="005a8cde542c461bbe3816faea281687" name="Documentacion Masiva de Facturas" color="#8cb6ce" meeting="false" start="2024-10-21" duration="1" complete="0" thirdDate="2024-09-19" thirdDate-constraint="0" expand="true">
-                    <depend id="178" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-        </task>
-        <task id="175" uid="c7395638eb0b42a8b19977c7dfb390a8" name="Distribución / Cross-Dock" meeting="false" start="2024-10-22" duration="9" complete="0" expand="true">
-            <task id="176" uid="d250042a9f874343a7915eff62cac154" name="CrossDock" meeting="false" start="2024-10-22" duration="9" complete="0" expand="true">
-                <task id="177" uid="a33b3b5c983b4c4c8c5630089fed62bc" name="Cross Dock" meeting="false" start="2024-10-22" duration="2" complete="0" expand="true">
-                    <task id="178" uid="aea05e06320c472990408ad41d957a3d" name="Consulta" color="#8cb6ce" meeting="false" start="2024-10-22" duration="1" complete="0" thirdDate="2024-10-02" thirdDate-constraint="0" expand="true">
-                        <depend id="179" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="179" uid="2cde2574107342528bcb0e6888b10ba7" name="Criterios Multiples" color="#8cb6ce" meeting="false" start="2024-10-23" duration="1" complete="0" thirdDate="2024-10-02" thirdDate-constraint="0" expand="true">
-                        <depend id="180" type="2" difference="0" hardness="Strong"/>
-                        <depend id="181" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-                <task id="180" uid="0ffea59e3fd44dfc95bd72c59d8fd7fe" name="Manifiestos" color="#8cb6ce" meeting="false" start="2024-10-24" duration="7" complete="0" thirdDate="2024-10-02" thirdDate-constraint="0" expand="true">
-                    <task id="181" uid="f044cbcb7bc6461d800a06a5c128c1d3" name="Alta" color="#8cb6ce" meeting="false" start="2024-10-24" duration="1" complete="0" thirdDate="2024-10-24" thirdDate-constraint="0" expand="true">
-                        <depend id="182" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="182" uid="ea879817ac2e47c78512a1f8a3ca3c27" name="Alta Encabezados" color="#8cb6ce" meeting="false" start="2024-10-25" duration="1" complete="0" thirdDate="2024-10-24" thirdDate-constraint="0" expand="true">
-                        <depend id="183" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="183" uid="6a6a197b4bec4e0889a2cc4cf5a87d46" name="Alta Encabezados II" color="#8cb6ce" meeting="false" start="2024-10-28" duration="1" complete="0" thirdDate="2024-10-24" thirdDate-constraint="0" expand="true">
-                        <depend id="184" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="184" uid="15ea4e28c8aa4eaa9d3f03de2741610b" name="Carga archivo" color="#8cb6ce" meeting="false" start="2024-10-29" duration="1" complete="0" thirdDate="2024-10-24" thirdDate-constraint="0" expand="true">
-                        <depend id="185" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="185" uid="112c1ccfaf074edb865b4424801a4927" name="Alta Encabezados IV" color="#8cb6ce" meeting="false" start="2024-10-30" duration="1" complete="0" thirdDate="2024-10-24" thirdDate-constraint="0" expand="true">
-                        <depend id="186" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="186" uid="96f89160884d4142be1cdd25092b4b23" name="Consulta" color="#8cb6ce" meeting="false" start="2024-10-31" duration="1" complete="0" thirdDate="2024-10-24" thirdDate-constraint="0" expand="true">
-                        <depend id="187" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="187" uid="f11b44e3777f42349274ffde2cd0ec25" name="Consulta II" color="#8cb6ce" meeting="false" start="2024-11-01" duration="1" complete="0" thirdDate="2024-10-24" thirdDate-constraint="0" expand="true">
-                        <depend id="190" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                </task>
-            </task>
-        </task>
-        <task id="188" uid="ee7770253c5941dca76455ce586ba221" name="Distribución / FTL" meeting="false" start="2024-11-04" duration="2" complete="0" expand="true">
-            <task id="189" uid="65ba31b4d56a457ab9f1c22c67272d8a" name="FTL" meeting="false" start="2024-11-04" duration="2" complete="0" expand="true">
-                <task id="190" uid="f7b9a2161e6043ae84cdcc70098ce1c6" name="Consulta" color="#8cb6ce" meeting="false" start="2024-11-04" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                    <depend id="191" type="2" difference="0" hardness="Strong"/>
-                </task>
-                <task id="191" uid="369f0541de744c5c9d33c52d4dcfec93" name="Criterios Múltiples" color="#8cb6ce" meeting="false" start="2024-11-05" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                    <depend id="193" type="2" difference="0" hardness="Strong"/>
-                </task>
-            </task>
-        </task>
-        <task id="192" uid="215dc0ee328d4eb9aed9a08bf6b9e1f7" name="Distribución / NUI" meeting="false" start="2024-11-06" duration="12" complete="0" expand="true">
-            <task id="193" uid="1faf28a5fa8148edaa697f8cb44330bf" name="Control de Nuis" color="#8cb6ce" meeting="false" start="2024-11-06" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="194" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="194" uid="39bdff15cd564e1e855b3c21ebb06381" name="Nuis todos los Lotes" color="#8cb6ce" meeting="false" start="2024-11-07" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="195" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="195" uid="b797814aa7b04018b358c338c5390d6c" name="NUIs todos los lotes II" color="#8cb6ce" meeting="false" start="2024-11-08" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="196" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="196" uid="7f09a6fc2b7349d1bb9c5fcdf88ff550" name="Reservación de Nuis LTL" color="#8cb6ce" meeting="false" start="2024-11-11" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="197" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="197" uid="e5e0b234e4134627aeec81c022c5a4b3" name="Reservación de Nuis CrossDock" color="#8cb6ce" meeting="false" start="2024-11-12" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="198" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="198" uid="2942d5c58d284937905dd4a68564dcf7" name="Cancelar Talon" color="#8cb6ce" meeting="false" start="2024-11-13" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="199" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="199" uid="f991e086e5de43ba8d28911079412898" name="Cancelacion masiva de Nuis LTL" color="#8cb6ce" meeting="false" start="2024-11-14" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="200" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="200" uid="5a6a986532c142278c09621d1c40e095" name="Cancelar guias CrossDock" color="#8cb6ce" meeting="false" start="2024-11-15" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="201" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="201" uid="49ba93e2114a425bb79bf5571ffd573c" name="Cancelacion masiva de guias CrossDock" color="#8cb6ce" meeting="false" start="2024-11-18" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="202" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="202" uid="aa753c040f0f4ccab93d7c35e52f75ae" name="Guias disponibles" color="#8cb6ce" meeting="false" start="2024-11-19" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="203" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="203" uid="7a47261b44e04e2ab643434fd5f249a0" name="Reporte de Lotes Cancelados" color="#8cb6ce" meeting="false" start="2024-11-20" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
-                <depend id="204" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="204" uid="de999b7793f14bb3a7dce6de283d473c" name="Reporte Facturas Canceladas" color="#8cb6ce" meeting="false" start="2024-11-21" duration="1" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources/>
