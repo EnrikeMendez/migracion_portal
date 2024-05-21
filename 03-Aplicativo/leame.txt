@@ -1,1 +1,1 @@
-En este directorio se deberá subir el aplicativo compiladolisto para publicar.
+En este directorio se deberá subir el aplicativo compilado listo para publicar.
