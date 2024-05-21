@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PortalV2Core.props" />
+</Project>

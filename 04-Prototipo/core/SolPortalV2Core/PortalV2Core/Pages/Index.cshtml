@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Logis";
+}
+
+<div class="text-center">
+    
+    <div>  <img src="~/img/LetrasLogis-rojo-azul.gif" alt="logo logis" width="100" height="40" /> </div>
+    <div style="background-color:darkblue; border-radius: 20px;">
+        <label style="color:white"> Iniciar Sesión </label>
+    </div>
+    <br/>
+
+    <form asp-controller="HomeController" asp-action="Redirigir" method="post">
+    <div>
+        <input type="text" placeholder="12345" id="USR" onkeypress="validaNumericos()"/>
+        <br/> <br />
+    </div>
+    <div>
+        <input type="password" placeholder="*********" id="PSW" />
+        <br/> <br />
+    </div>
+    <div>
+        <input type="submit"/>
+    </div>
+    
+   </form> 
+    <br />
+    <div style="background-color:darkblue; border-radius: 20px; color:white"> Q.A </div>
+</div>
+
+<script type="text/javascript">
+    
+    function validaNumericos() {
+        alert: "xd";
+    }
+
+</script>

@@ -1,0 +1,7 @@
+C:\Users\usuario\Downloads\ProyectosCore\SolPortalV2Core\PortalV2Core\obj\Release\net8.0\PubTmp\Out\PortalV2Core.exe
+C:\Users\usuario\Downloads\ProyectosCore\SolPortalV2Core\PortalV2Core\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\usuario\Downloads\ProyectosCore\SolPortalV2Core\PortalV2Core\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\usuario\Downloads\ProyectosCore\SolPortalV2Core\PortalV2Core\obj\Release\net8.0\PubTmp\Out\PortalV2Core.dll
+C:\Users\usuario\Downloads\ProyectosCore\SolPortalV2Core\PortalV2Core\obj\Release\net8.0\PubTmp\Out\PortalV2Core.deps.json
+C:\Users\usuario\Downloads\ProyectosCore\SolPortalV2Core\PortalV2Core\obj\Release\net8.0\PubTmp\Out\PortalV2Core.runtimeconfig.json
+C:\Users\usuario\Downloads\ProyectosCore\SolPortalV2Core\PortalV2Core\obj\Release\net8.0\PubTmp\Out\PortalV2Core.pdb
