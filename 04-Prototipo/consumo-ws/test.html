@@ -3,13 +3,16 @@
 		<script src="http://logiscomercioexterior.com.mx/v9/include/js/jquery-1.3.2.min.js"></script>
 		<script src="js/funciones.js"></script>
 	</head>
-	<body>
+	<body onload="init_page();">
 		<!--<button onclick="call_ws();">-->
-		<button onclick="test_ws();">
-			Probar
+		<button onclick="create_token();">
+			Generar Token
 		</button>
 		<button onclick="alert(get_cookie('tkn'));">
 			Recuperar token
+		</button>
+		<button onclick="ws_cursor(get_cookie('tkn'));">
+			Recuperar Cursor
 		</button>
 	</body>
 </html>
