@@ -1,2 +1,0 @@
-Aqui se subirán las versiones de prueba de comunicación y desarrollo del portal.
-Ojo: No es el código definitivo.
