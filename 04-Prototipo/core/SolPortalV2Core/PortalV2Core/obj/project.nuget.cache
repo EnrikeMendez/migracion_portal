@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H5JvcvmRG90oLjPwP3pPfafAwUjdOyLA69LK370dqYzoU5oHCZD6Jd0sQWetMmMvjPuJYXZqXbpQXTP66hSW6A==",
+  "dgSpecHash": "ww2lHYmO6q9thMAi+R+Au09GBke4LqjXKXq7cCwSu9bAczf8MAnTQmK9GukHFlVOWFFmTDp+oF8uaAUG2YEkng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\source\\repos\\migracion\\04-Prototipo\\core\\SolPortalV2Core\\PortalV2Core\\PortalV2Core.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\core\\SolPortalV2Core\\PortalV2Core\\PortalV2Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
