@@ -12066,8 +12066,31 @@ textarea.form-control-lg {
     color: white;
 }
 
-.bdr {
-    border-radius: 6px;
+
+
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 300px; /* Adjust the height as needed */
+}
+
+    .tableFixHead thead th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: rgb(13,110,253);
+        color:white;
+        
+    }
+
+.card1 {
+    border: 0px solid #ddd;
+    border-radius: 1rem;
+    padding: 0rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin: 0rem;
+    height: 500px;
+
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
