@@ -11,5 +11,33 @@
             Prueba de consumo de WebService
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-4">
+            <button class="btn btn-primary" onclick="mostrarInfo();">Obtener Informacion</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table id="tblDatos" name="tblDatos" class="table table-responsive-md table-striped">
+
+            </table>
+        </div>
+    </div>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <script type="text/javascript">
+        function mostrarInfo()
+        {
+            create_token();
+            var datos = ws_cursor();
+
+            if (datos.ListRefCursor != null)
+            {
+                console.log(datos);
+            }
+            else
+            {
+                alert('No hay informacion a mostrar.');
+            }
+        }
+    </script>
 </div>
