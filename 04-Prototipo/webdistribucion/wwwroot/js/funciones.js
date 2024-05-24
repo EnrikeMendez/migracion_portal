@@ -184,7 +184,8 @@ function ws_cursor() {
 function drawTable(data) {
     var table = document.getElementById("resultTable");
     var thead = table.querySelector("thead tr");
-    var tbody = table.querySelector("tbody");
+	var tbody = table.querySelector("tbody");
+	var iColumn = 0;
 
     thead.innerHTML = "";
     tbody.innerHTML = "";
@@ -202,10 +203,19 @@ function drawTable(data) {
             var tr = document.createElement("tr");
             Object.values(item).forEach(function(value) {
                 var td = document.createElement("td");
-                td.textContent = value;
-                tr.appendChild(td);
+				
+				if (iColumn == 4) {
+					//td.textContent = value;
+					td.innerHTML = "<a href='" + value + "' title='Etiqueta'>" + "<img src='/img/label.gif' style='border: none;'/></a>";
+				}
+				else {
+					td.textContent = value;
+				}
+				tr.appendChild(td);
+				iColumn++;
             });
-            tbody.appendChild(tr);
+			tbody.appendChild(tr);
+			iColumn = 0;
         });
     }
 }
