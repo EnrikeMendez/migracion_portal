@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oQoLyeoZ2VVVHRdXajNY9L0wUeLg0O7mvRddsoExcyo=",
+  "Hash": "KxvUZKcSOt+U/CtaxBE83mXg9zn5jhGOHNpSHhnEyE0=",
   "Source": "webdistribucion",
   "BasePath": "_content/webdistribucion",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\wwwroot\\js\\funciones.js",
+      "SourceId": "webdistribucion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\wwwroot\\",
+      "BasePath": "_content/webdistribucion",
+      "RelativePath": "js/funciones.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\funciones.js"
     },
     {
       "Identity": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\wwwroot\\js\\funciones.min.js",

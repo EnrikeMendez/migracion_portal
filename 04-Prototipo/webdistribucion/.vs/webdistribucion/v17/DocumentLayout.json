@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B1C8C0E9-F40C-43DE-A038-4B175E0D5428}|webdistribucion.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B1C8C0E9-F40C-43DE-A038-4B175E0D5428}|webdistribucion.csproj|c:\\users\\usuario\\source\\repos\\migracion_portal\\04-prototipo\\webdistribucion\\wwwroot\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B1C8C0E9-F40C-43DE-A038-4B175E0D5428}|webdistribucion.csproj|solutionrelative:wwwroot\\js\\funciones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1C8C0E9-F40C-43DE-A038-4B175E0D5428}|webdistribucion.csproj|c:\\users\\usuario\\source\\repos\\migracion_portal\\04-prototipo\\webdistribucion\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B1C8C0E9-F40C-43DE-A038-4B175E0D5428}|webdistribucion.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,12 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "funciones.js",
+              "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\wwwroot\\js\\funciones.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\funciones.js",
+              "ToolTip": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\wwwroot\\js\\funciones.js",
+              "RelativeToolTip": "wwwroot\\js\\funciones.js",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-24T00:14:14.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-23T22:51:38.691Z",
               "EditorCaption": ""
@@ -45,7 +62,7 @@
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAmwBUAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-23T22:50:49.455Z",
               "EditorCaption": ""

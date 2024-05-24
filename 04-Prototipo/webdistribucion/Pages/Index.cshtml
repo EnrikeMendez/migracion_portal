@@ -18,8 +18,13 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <table id="tblDatos" name="tblDatos" class="table table-responsive-md table-striped">
-
+            <table id="resultTable">
+                <thead>
+                    <tr>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
             </table>
         </div>
     </div>
@@ -27,6 +32,8 @@
     <script type="text/javascript">
         function mostrarInfo()
         {
+            ws_cursor();
+            /*
             create_token();
             var datos = ws_cursor();
 
@@ -38,6 +45,7 @@
             {
                 alert('No hay informacion a mostrar.');
             }
+            */
         }
     </script>
 </div>

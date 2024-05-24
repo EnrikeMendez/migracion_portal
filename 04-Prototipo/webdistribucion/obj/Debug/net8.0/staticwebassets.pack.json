@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\wwwroot\\js\\funciones.js",
+      "PackagePath": "staticwebassets\\js\\funciones.js"
+    },
+    {
       "Id": "C:\\Users\\usuario\\source\\repos\\migracion_portal\\04-Prototipo\\webdistribucion\\wwwroot\\js\\funciones.min.js",
       "PackagePath": "staticwebassets\\js\\funciones.min.js"
     },
