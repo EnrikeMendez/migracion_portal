@@ -181,10 +181,59 @@ function ws_cursor() {
 }
 
 
+function ws_cursor_dinamico() {
+	var result = new Object();
+	var tblRes = null;
+	var token = get_cookie("tkn");
+	var body = JSON.stringify(
+		{
+			"parametroUno": document.getElementById('param1').value ,
+			"parametroDos": document.getElementById('param2').value,
+			"parametroTres": document.getElementById('param3').value,
+			"fechaInicio": document.getElementById('param4').value,
+			"fechaFin": document.getElementById('param5').value
+		}
+	);
+
+	/*
+	if(token == null)
+	{
+		redirect("login");
+	}
+	*/
+	$.ajax(
+		{
+			type: "POST",
+			dataType: "json",
+			contentType: "application/json; charset=utf-8",
+			contentType: "application/json",
+			crossDomain: true,
+			url: url_ws + "refCursorDinamico",
+			data: body,
+			beforeSend: function (xhr, settings) {
+				xhr.setRequestHeader('Authorization', 'Bearer ' + token);
+			},
+			success: function (data) {
+				drawTable(data.listRefCursor);
+			},
+			error: function (xhr) {
+				console.log(xhr);
+				alert('Error: ' + xhr.responseText);
+			}
+		});
+
+
+	return result;
+}
+
+
+
+
 function drawTable(data) {
     var table = document.getElementById("resultTable");
     var thead = table.querySelector("thead tr");
-    var tbody = table.querySelector("tbody");
+	var tbody = table.querySelector("tbody");
+	var iColumn = 0;
 
     thead.innerHTML = "";
     tbody.innerHTML = "";
@@ -202,10 +251,19 @@ function drawTable(data) {
             var tr = document.createElement("tr");
             Object.values(item).forEach(function(value) {
                 var td = document.createElement("td");
-                td.textContent = value;
-                tr.appendChild(td);
+				
+				if (iColumn == 4) {
+					//td.textContent = value;
+					td.innerHTML = "<a href='" + value + "' title='Etiqueta'>" + "<img src='/img/label.gif' style='border: none;'/></a>";
+				}
+				else {
+					td.textContent = value;
+				}
+				tr.appendChild(td);
+				iColumn++;
             });
-            tbody.appendChild(tr);
+			tbody.appendChild(tr);
+			iColumn = 0;
         });
     }
 }

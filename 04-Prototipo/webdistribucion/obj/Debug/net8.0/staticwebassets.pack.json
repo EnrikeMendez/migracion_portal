@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\img\\LetrasLogis-rojo-azul.gif"
     },
     {
+      "Id": "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\wwwroot\\img\\label.gif",
+      "PackagePath": "staticwebassets\\img\\label.gif"
+    },
+    {
       "Id": "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\wwwroot\\img\\logo_tmp.png",
       "PackagePath": "staticwebassets\\img\\logo_tmp.png"
     },

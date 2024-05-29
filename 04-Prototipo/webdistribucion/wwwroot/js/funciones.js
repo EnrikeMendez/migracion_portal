@@ -186,16 +186,25 @@ function drawTable(data) {
     var thead = table.querySelector("thead tr");
 	var tbody = table.querySelector("tbody");
 	var iColumn = 0;
+	var iTalon = 0;
+	
 
     thead.innerHTML = "";
     tbody.innerHTML = "";
 
     if (data.length > 0) {
 
-        Object.keys(data[0]).forEach(function(key) {
-            var th = document.createElement("th");
-            th.textContent = key;
-            thead.appendChild(th);
+		Object.keys(data[0]).forEach(function (key) {
+			var th = document.createElement("th");
+			th.textContent = key;
+			thead.appendChild(th);
+
+			if (iTalon == 2) {
+				th.innerHTML = "<a> N° Talon </a>";
+			} else {
+				th.textContent = value;
+			}
+			iTalon++;
         });
 
 

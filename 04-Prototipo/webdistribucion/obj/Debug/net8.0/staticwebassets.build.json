@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JHDukm0qNR7LcuhUNtHKhNjno6BgDPj3qsQaNdyY9KA=",
+  "Hash": "bFprwtWyBNoFHp7l8P33ODmu1cA88t4yIGmudJ3Pa8Q=",
   "Source": "webdistribucion",
   "BasePath": "_content/webdistribucion",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\wwwroot\\img\\label.gif",
+      "SourceId": "webdistribucion",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\wwwroot\\",
+      "BasePath": "_content/webdistribucion",
+      "RelativePath": "img/label.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\label.gif"
     },
     {
       "Identity": "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\wwwroot\\img\\LetrasLogis-rojo-azul.gif",
