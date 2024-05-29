@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mgHDi6u6sGGeDK5er2lXkgZwQGWDlfLeO4Nu7HqYL0Jm6sgHoyBlqoe/iJoXTNfxoLZcmSoXERiX01Lk1R2vDg==",
+  "dgSpecHash": "Wy5dIKIiS6xOMsUcBLGWTbFoyhxtVxh4X29zUSIszJiTX/Tct1nJ52HI4JHSiuXJbsCQgqMRHz0BJjRfWkDy3A==",
   "success": true,
-  "projectFilePath": "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\webdistribucion.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\Downloads\\Nueva carpeta\\webdistribucion\\webdistribucion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

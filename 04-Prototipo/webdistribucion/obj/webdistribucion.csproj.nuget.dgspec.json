@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\webdistribucion.csproj": {}
+    "C:\\Users\\usuario\\Downloads\\Nueva carpeta\\webdistribucion\\webdistribucion.csproj": {}
   },
   "projects": {
-    "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\webdistribucion.csproj": {
+    "C:\\Users\\usuario\\Downloads\\Nueva carpeta\\webdistribucion\\webdistribucion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\webdistribucion.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Downloads\\Nueva carpeta\\webdistribucion\\webdistribucion.csproj",
         "projectName": "webdistribucion",
-        "projectPath": "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\webdistribucion.csproj",
+        "projectPath": "C:\\Users\\usuario\\Downloads\\Nueva carpeta\\webdistribucion\\webdistribucion.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\proyectosGITHUB\\MigracionPortalV2\\migracion\\04-Prototipo\\webdistribucion\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Downloads\\Nueva carpeta\\webdistribucion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webdistribucion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+557cc8d442661f06e96df8255282dd725f7f6cce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("webdistribucion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webdistribucion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

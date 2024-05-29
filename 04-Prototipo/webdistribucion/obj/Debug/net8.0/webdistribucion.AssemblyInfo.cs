@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webdistribucion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09f7328e1d0637a22f1c340c2014c2fd6a8248c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("webdistribucion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webdistribucion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

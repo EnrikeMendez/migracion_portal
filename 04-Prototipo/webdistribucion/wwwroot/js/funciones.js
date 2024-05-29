@@ -181,30 +181,69 @@ function ws_cursor() {
 }
 
 
+function ws_cursor_dinamico() {
+	var result = new Object();
+	var tblRes = null;
+	var token = get_cookie("tkn");
+	var body = JSON.stringify(
+		{
+			"parametroUno": document.getElementById('param1').value ,
+			"parametroDos": document.getElementById('param2').value,
+			"parametroTres": document.getElementById('param3').value,
+			"fechaInicio": document.getElementById('param4').value,
+			"fechaFin": document.getElementById('param5').value
+		}
+	);
+
+	/*
+	if(token == null)
+	{
+		redirect("login");
+	}
+	*/
+	$.ajax(
+		{
+			type: "POST",
+			dataType: "json",
+			contentType: "application/json; charset=utf-8",
+			contentType: "application/json",
+			crossDomain: true,
+			url: url_ws + "refCursorDinamico",
+			data: body,
+			beforeSend: function (xhr, settings) {
+				xhr.setRequestHeader('Authorization', 'Bearer ' + token);
+			},
+			success: function (data) {
+				drawTable(data.listRefCursor);
+			},
+			error: function (xhr) {
+				console.log(xhr);
+				alert('Error: ' + xhr.responseText);
+			}
+		});
+
+
+	return result;
+}
+
+
+
+
 function drawTable(data) {
     var table = document.getElementById("resultTable");
     var thead = table.querySelector("thead tr");
 	var tbody = table.querySelector("tbody");
 	var iColumn = 0;
-	var iTalon = 0;
-	
 
     thead.innerHTML = "";
     tbody.innerHTML = "";
 
     if (data.length > 0) {
 
-		Object.keys(data[0]).forEach(function (key) {
-			var th = document.createElement("th");
-			th.textContent = key;
-			thead.appendChild(th);
-
-			if (iTalon == 2) {
-				th.innerHTML = "<a> N° Talon </a>";
-			} else {
-				th.textContent = value;
-			}
-			iTalon++;
+        Object.keys(data[0]).forEach(function(key) {
+            var th = document.createElement("th");
+            th.textContent = key;
+            thead.appendChild(th);
         });
 
 
