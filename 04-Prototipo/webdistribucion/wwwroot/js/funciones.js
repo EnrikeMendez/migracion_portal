@@ -139,45 +139,20 @@ function getDateNow()
 function ws_cursor() {
 	var result	=	new Object();
 	var tblRes	=	null;
-	var token	=	get_cookie("tkn");
+	var token = get_cookie("tkn");
+	var tipo_peticion = "Post"
+	var tipo_data = "json"
+	var webmethod = "refCursor"
     var body	=	JSON.stringify(
 								{
         							"parametroUno": "0",
         							"parametroDos": "50"
     							}
-				);
+	);
 
-	/*
-	if(token == null)
-	{
-		redirect("login");
-	}
-	*/
-	$.ajax(
-		{
-        type: "POST",
-        dataType: "json",
-        contentType: "application/json; charset=utf-8",
-		contentType: "application/json",
-        crossDomain: true,
-        url: url_ws + "refCursor",
-        data: body,
-        beforeSend:	function(xhr, settings)
-					{
-            			xhr.setRequestHeader('Authorization','Bearer ' + token );
-        			},
-        success:	function(data) 
-					{
-            drawTable(data.listRefCursor);
-        },
-        error: function(xhr) {
-            console.log(xhr);
-            alert('Error: ' + xhr.responseText);
-        }
-    });
+	ws_respuesta(tipo_peticion, tipo_data, webmethod, body, token)
 
-	
-	return result;
+	return result(ws_respuesta);
 }
 
 
@@ -185,7 +160,13 @@ function ws_cursor_dinamico() {
 	var result = new Object();
 	var tblRes = null;
 	var token = get_cookie("tkn");
+	var tipo_peticion = "Post"
+	var tipo_data = "json"
+	var webmethod = "refCursorDinamico"
+
 	var body = JSON.stringify(
+	
+
 		{
 			"parametroUno": document.getElementById('param1').value ,
 			"parametroDos": document.getElementById('param2').value,
@@ -195,37 +176,11 @@ function ws_cursor_dinamico() {
 		}
 	);
 
-	/*
-	if(token == null)
-	{
-		redirect("login");
-	}
-	*/
-	$.ajax(
-		{
-			type: "POST",
-			dataType: "json",
-			contentType: "application/json; charset=utf-8",
-			contentType: "application/json",
-			crossDomain: true,
-			url: url_ws + "refCursorDinamico",
-			data: body,
-			beforeSend: function (xhr, settings) {
-				xhr.setRequestHeader('Authorization', 'Bearer ' + token);
-			},
-			success: function (data) {
-				drawTable(data.listRefCursor);
-			},
-			error: function (xhr) {
-				console.log(xhr);
-				alert('Error: ' + xhr.responseText);
-			}
-		});
+	ws_respuesta(tipo_peticion, tipo_data, webmethod, body, token)
 
-
-	return result;
+	
+	return result(ws_respuesta);
 }
-
 
 
 
@@ -266,6 +221,31 @@ function drawTable(data) {
 			iColumn = 0;
         });
     }
+}
+
+
+function ws_respuesta(tipo_peticion, tipo_data, webmethod, body, token)
+{
+	$.ajax(
+		{
+			type: tipo_peticion,
+			dataType: tipo_data,
+			contentType: "application/json; charset=utf-8",
+			contentType: "application/json",
+			crossDomain: true,
+			url: url_ws + webmethod,
+			data: body,
+			beforeSend: function (xhr, settings) {
+				xhr.setRequestHeader('Authorization', 'Bearer ' + token);
+			},
+			success: function (data) {
+				drawTable(data.listRefCursor);
+			},
+			error: function (xhr) {
+				console.log(xhr);
+				alert('Error: ' + xhr.responseText);
+			}
+		});
 }
 
 window.onload = init_page;
