@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "wwwroot/js/myvar.min.js",
+    "inputFiles": [
+      "wwwroot/js/myvar.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/funciones.min.js",
+    "inputFiles": [
+      "wwwroot/js/funciones.js"
+    ]
+  }
+]

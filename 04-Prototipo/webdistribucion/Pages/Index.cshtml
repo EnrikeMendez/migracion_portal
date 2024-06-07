@@ -6,17 +6,25 @@
 
 <div class="text-center  align-content-center align-items-center">
     <div class="row">
-        <div>
+        <div class="col-12">
             <img src="~/img/logo_tmp.png" alt="logo logis" width="200" height="80" />
+            <img src="~/img/trailer.gif" alt="logo logis" width="200" height="80" class="img-camion" />
+            <h1 class="display-4">Consulta de NUI's</h1>
         </div>
     </div>
-    <h1 class="display-4">Consulta de NUI's</h1>
+    <!--
+    <div class="row">
+        <div class="col-12">
+            <h1 class="display-4">Consulta de NUI's</h1>
+        </div>
+    </div>
+    -->
     <br>
     <div class="row">
         <div>
             <label class="col-form-label">
                 Para obtener la información de tus NUI's da
-                <a onclick="mostrarInfo();" class="link-primary" style="cursor:pointer;" >click aqu&iacute;</a>
+                <a onclick="call_cursor();" class="link-primary" style="cursor:pointer;">click aqu&iacute;</a>
             </label>
         </div>
     </div>
@@ -46,8 +54,8 @@
                         <input type="text" class="form-control" id="param5" name="param5" placeholder="31/12/2024">
                     </div>
                     <div class="form-group text-center">
-                        </br>
-                        <a onclick="mostrarInfo2();" class="btn btn-primary" style="cursor:pointer;">click aquí</a>
+                        <br/>
+                        <a onclick="call_filtro();" class="btn btn-primary" style="cursor:pointer;">click aquí</a>
                     </div>
                
             </div>
@@ -85,3 +93,4 @@
         }
     </script>
 </div>
+<script src="~/js/index.js" asp-append-version="true"></script>

@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - webdistribucion</title>
+    <script src="~/js/myvar.js" asp-append-version="true"></script>
    <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> -->
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/webdistribucion.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/bootstrap.css" asp-append-version="true" />
-   
 </head>
 <body onload="validate_session();">
     <header>
@@ -48,6 +48,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/cnn_ws.js" asp-append-version="true"></script>
     <script src="~/js/funciones.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
