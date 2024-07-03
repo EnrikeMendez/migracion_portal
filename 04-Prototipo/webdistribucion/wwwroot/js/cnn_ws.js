@@ -67,34 +67,42 @@ function validate_session() {
 	total_hours = 1000 * 60;
 	total_days = 1000 * 60 * 24;
 
-	d.setDate(session_init.split(".")[0]);
-	d.setMonth(session_init.split(".")[1]);
-	d.setFullYear(session_init.split(".")[2]);
-	d.setHours(session_init.split(".")[3]);
-	d.setMinutes(session_init.split(".")[4]);
-	d.setSeconds(session_init.split(".")[5]);
-
-	ini_date = d;
-	end_date = new Date();
-	data_number = end_date - ini_date;
-
-	console.log("ini_date: " + ini_date);
-	console.log("end_date: " + end_date);
-
-	seconds = data_number / 1000;
-	minutes = seconds / 60;
-	hours = minutes / 60;
-	days = hours / 24;
-
-	/*
-	Estas instrucciones se utilizarán para controlar el tiempo que puede mantenerse activa una sesión:
-	if(hours > 3)
-	{
-		sessionStorage.removeItem("tkn");
+	if (session_init == null) {
+		//location.href = "login_partial";
+		console.log("no hay token registrado");
 	}
-	*/
-	if (minutes > 30) {
-		sessionStorage.removeItem("tkn");
+	else {
+		d.setDate(session_init.split(".")[0]);
+		d.setMonth(session_init.split(".")[1]);
+		d.setFullYear(session_init.split(".")[2]);
+		d.setHours(session_init.split(".")[3]);
+		d.setMinutes(session_init.split(".")[4]);
+		d.setSeconds(session_init.split(".")[5]);
+
+		ini_date = d;
+		end_date = new Date();
+		data_number = end_date - ini_date;
+
+		console.log("ini_date: " + ini_date);
+		console.log("end_date: " + end_date);
+
+		seconds = data_number / 1000;
+		minutes = seconds / 60;
+		hours = minutes / 60;
+		days = hours / 24;
+
+		console.log("session {days: " + days + ", hours: " + hours + ", minutes: " + minutes + ", seconds: " + seconds);
+
+		/*
+		Estas instrucciones se utilizarán para controlar el tiempo que puede mantenerse activa una sesión:
+		if(hours > 3)
+		{
+			sessionStorage.removeItem("tkn");
+		}
+		*/
+		if (minutes > 30) {
+			sessionStorage.removeItem("tkn");
+		}
 	}
 }
 function create_cookie(name, value) {
